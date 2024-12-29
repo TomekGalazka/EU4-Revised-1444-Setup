@@ -1,0 +1,71 @@
+government = monarchy
+add_government_reform = iqta
+primary_culture = azerbaijani
+technology_group = muslim
+religion = sunni
+religious_school = hanafi_school
+capital = 421
+
+1378.1.1 = {
+	monarch = {
+		name = "Ibrahim I Muhammad"
+		dynasty = "Derbendi"
+		death_date = 1417.1.1
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}
+
+1405.1.1 = {
+	heir = {
+		name = "Farrukhsiyar Khalil"
+		monarch_name = "Farrukhsiyar Khalil I"
+		dynasty = "Derbendi"
+		birth_Date = 1405.1.1
+		death_date = 1465.1.1
+		claim = 95
+		adm = 2
+		dip = 3
+		mil = 1
+	}
+}
+
+1417.1.1 = {
+	monarch  = {
+		name = "Farrukhsiyar Khalil"
+		monarch_name = "Farrukhsiyar Khalil I"
+		dynasty = "Derbendi"
+		birth_Date = 1405.1.1
+		death_date = 1465.1.1
+		adm = 2
+		dip = 3
+		mil = 1
+	}
+}
+
+1441.1.1 = {
+	heir = {
+		name = "Bahram Farrukhsiyar"
+		monarch_name = "Bahram Farrukhsiyar"
+		dynasty = "Derbendi"
+		birth_Date = 1441.1.1
+		death_date = 1502.1.1
+		claim = 95
+		adm = 3
+		dip = 1
+		mil = 4
+	}
+}
+
+1465.1.1 = {
+	monarch = {
+		name = "Bahram Farrukhsiyar"
+		dynasty = "Derbendi"
+		birth_Date = 1441.1.1
+		death_date = 1502.1.1
+		adm = 3
+		dip = 1
+		mil = 4
+	}
+}

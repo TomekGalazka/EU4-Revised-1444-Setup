@@ -1,0 +1,7 @@
+﻿l_english:
+ liv_dummy_mission_21_title:0 "[Root.GetSelectableMissionTitle]"
+ liv_dummy_mission_21_desc:0 "[Root.GetSelectableMissionDescription]"
+ liv_lva_colonize_australia_title:1 "[Root.GetPreviewColorLIV]Claim Australia[Root.GetPreviewColorLIV_end]"
+ liv_lva_colonize_australia_desc:0 "Our explorers have uncovered a vast and uncharted island. While it is not the elusive southern continent we sought, its immense size and potential make it a prize worth claiming for [Root.GetAdjective] glory."
+ liv_lva_colonial_australia:0 "Terra Australis"
+ liv_lva_claim_australia_tt:0 "§Y[Root.GetName]§! gains a permanent claim on every province with a §YCenter of Trade§! or an §YEstuary§! in the §YAustralia§! trade node."

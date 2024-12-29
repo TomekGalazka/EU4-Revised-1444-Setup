@@ -1,0 +1,57 @@
+polish_minors_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		OR = {
+			tag = LGN
+			tag = GLG
+			tag = KSB
+		}
+	}
+
+	sprite_infantry = {
+		0 = POL_NEW_INFANTRY_1
+		1 = POL_INFANTRY_2_catup
+		2 = POL_NEW_INFANTRY_3
+		3 = POL_NEW_INFANTRY_4
+	}
+
+	sprite_cavalry = {
+		0 = POL_NEW_CAVALRY_1
+		1 = POL_CAVALRY_2_catup	
+		2 = POL_NEW_CAVALRY_3
+		3 = POL_NEW_CAVALRY_4
+	}
+
+	sprite_artillery = {
+		0 = POL_NEW_ARTILLERY_1
+		1 = POL_ARTILLERY_2_catup
+		2 = POL_NEW_ARTILLERY_3
+		3 = POL_NEW_ARTILLERY_4
+	}
+}
+
+country_trigger = {
+			tag = BAG
+	}
+
+	sprite_infantry = {
+		0 = QAR_INFANTRY_1
+		1 = QAR_INFANTRY_2
+		2 = QAR_INFANTRY_3
+		3 = QAR_INFANTRY_4
+	}
+
+	sprite_cavalry = {
+		0 = QAR_CAVALRY_1
+		1 = QAR_CAVALRY_2	
+		2 = QAR_CAVALRY_3
+		3 = QAR_CAVALRY_4
+	}
+
+	sprite_artillery = {
+		0 = QAR_ARTILLERY_1
+		1 = QAR_ARTILLERY_2
+		2 = QAR_ARTILLERY_3
+		3 = QAR_ARTILLERY_4
+	}
+}

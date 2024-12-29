@@ -1,0 +1,27 @@
+byzantine_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		tag = BYZ
+	}
+
+	sprite_infantry = {
+		0 = TRE_INFANTRY_1
+		1 = TRE_INFANTRY_2
+		2 = TRE_INFANTRY_3
+		3 = TRE_INFANTRY_4
+	}
+
+	sprite_cavalry = {
+		0 = TRE_CAVALRY_1
+		1 = TRE_CAVALRY_2
+		2 = TRE_CAVALRY_3
+		3 = TRE_CAVALRY_4
+	}
+
+	sprite_artillery = {
+		0 = TRE_ARTILLERY_1
+		1 = TRE_ARTILLERY_2
+		2 = TRE_ARTILLERY_3
+		3 = TRE_ARTILLERY_4
+	}
+}

@@ -1,0 +1,10 @@
+government = monarchy
+add_government_reform = barbary_sultanate_reform
+government_rank = 1
+primary_culture = tunisian
+religion = sunni
+technology_group = muslim
+capital = 356	# Benghazi
+fixed_capital = 356 # Cannot move capital away from this province & no power cost to move to it
+religious_school = maliki_school
+add_accepted_culture = al_misr_arabic

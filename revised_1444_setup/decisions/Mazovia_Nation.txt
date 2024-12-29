@@ -1,0 +1,73 @@
+country_decisions = {
+	mazovia_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { tag = POL }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
+			}
+			OR = {
+				ai = no
+				NOT = { exists = MAZ }
+			}
+			primary_culture = polish
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 256
+				province_id = 4525
+				province_id = 257
+				province_id = 1938
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			owns_core_province = 256
+			owns_core_province = 4525
+			owns_core_province = 257
+			owns_core_province = 1938
+			NOT = { exists = MAZ }
+		}
+		effect = {
+			change_tag = MAZ
+			on_change_tag_effect = yes
+			add_prestige = 25
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			if = {
+				limit = {
+					has_custom_ideas = no
+					NOT = { has_idea_group = MAZ_ideas }
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+}

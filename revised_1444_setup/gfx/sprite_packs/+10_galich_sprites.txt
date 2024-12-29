@@ -1,0 +1,27 @@
+galich_sprite_pack = {
+	# Tests against every tag in game
+country_trigger = {
+			tag = GLC
+	}
+
+	sprite_infantry = {
+		0 = SMO_INFANTRY_1
+		1 = SMO_INFANTRY_2
+		2 = SMO_INFANTRY_3
+		3 = SMO_INFANTRY_4
+	}
+
+	sprite_cavalry = {
+		0 = SMO_CAVALRY_1
+		1 = SMO_CAVALRY_2	
+		2 = SMO_CAVALRY_3
+		3 = SMO_CAVALRY_4
+	}
+
+	sprite_artillery = {
+		0 = SMO_ARTILLERY_1
+		1 = SMO_ARTILLERY_2
+		2 = SMO_ARTILLERY_3
+		3 = SMO_ARTILLERY_4
+	}
+}

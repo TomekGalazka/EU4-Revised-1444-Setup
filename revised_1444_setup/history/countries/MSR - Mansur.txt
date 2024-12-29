@@ -1,0 +1,38 @@
+government = monarchy
+add_government_reform = principality
+government_rank = 1
+technology_group = eastern
+religion = orthodox
+primary_culture = ryazanian
+add_accepted_culture = mishary
+add_accepted_culture = ruthenian
+capital = 4542 	# Lubnie
+fixed_capital = 4542 # Cannot move capital away from this province & no power cost to move to it
+
+
+1432.1.1 = {
+	monarch = {
+		name = "Boris"
+		dynasty = "Glinsky"
+		birth_date = 1400.1.1
+		death_date = 1452.1.1
+		adm = 3
+		dip = 3
+		mil = 4
+		culture = mishary
+	}
+}
+
+1432.1.1 = {
+	heir = {
+		name = "Lev"
+		dynasty = "Glinsky"
+		birth_date = 1423.1.1
+		death_date = 1495.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 5
+		culture = mishary
+	}
+}

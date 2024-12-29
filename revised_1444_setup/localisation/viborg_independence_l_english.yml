@@ -1,0 +1,10 @@
+﻿l_english:
+ viborg_independence.1.t: "The Ambitions of Karl Knutsson Bonde"
+ viborg_independence.1.d: "The Viborg Governorate has become a center of intrigue under the stewardship of Karl Knutsson Bonde. Once a trusted noble, his ambitions for the Swedish Crown have been left unfulfilled, leaving him embittered and determined to chart his own path to power. Styling himself as the 'Duke of Finland', he has rallied supporters both within and beyond the borders of Sweden, challenging the legitimacy of the Swedish Crown. Rumors of preparations for war now swirl around Viborg, threatening to ignite a new conflict. How will this power struggle unfold, and can the ambitions of Karl Knutsson Bonde be contained?"
+ viborg_independence.1.a: "We will seek foreign aid!"
+ viborg_independence.1.b: "We are better off under the Swedish Crown"
+ viborg_independence.1.a.tt: "Every Rival or Enemy of §Y[DAN.GetName]§!, which has at least §Y0§! opinion of [Root.GetName], will support the independence of §Y[Root.GetName]§!."
+ viborg_independence.2.t: "[From.GetName] asks for Support for their Independence"
+ viborg_independence.2.d: "This morning envoys from [From.GetName] reached the [Root.GetAdjective] court. They have requested our support for their pursuit of independence. While we might not have much in common with the [From.GetAdjective] people, they are a subject of our enemy Denmark and Sweden. By supporting them we would be able to weaken our enemy, and expand our own influence in the Baltic."
+ viborg_independence.2.a: "We will support [From.GetName]!"
+ viborg_independence.2.b: "There is not much to gain from an independent [From.GetName]."

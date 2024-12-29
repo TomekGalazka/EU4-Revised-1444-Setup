@@ -1,0 +1,34 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = eastern
+primary_culture = serbian
+religion = orthodox
+capital = 138	# Zabljak
+fixed_capital = 138 # Cannot move capital away from this province & no power cost to move to it
+
+#Grand Dukes of Duklija/Zeta
+1444.1.1 = {
+	monarch = {
+		name = "Gojcin"
+		dynasty = "Crnojevic"
+		birth_date = 1398.1.1
+		death_date = 1451.1.1
+		dip = 2
+		adm = 3
+		mil = 3
+	}
+}
+
+1444.1.1 = {
+	heir = {
+		name = "Stefan"
+		dynasty = "Crnojevic"
+		birth_date = 1426.1.1
+		death_date = 1465.1.21
+		claim = 95
+		adm = 4
+		dip = 1
+		mil = 4
+	}
+}

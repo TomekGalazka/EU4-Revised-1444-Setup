@@ -1,0 +1,116 @@
+country_decisions = {
+	finnish_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { tag = FIN }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
+			}
+			OR = {
+				ai = no
+				NOT = { exists = FIN }
+			}
+			OR = {
+				primary_culture = finnish
+				tag = VIB
+			}
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 28 # Nyland
+				province_id = 30 # Viborg
+				province_id = 29 # Tavastland
+				province_id = 31 # Savolax
+				province_id = 4123 # Pirkanmaa
+				province_id = 19 #Österbotten
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			owns_core_province = 28 # Nyland
+			owns_core_province = 30 # Viborg
+			owns_core_province = 29 # Tavastland
+			owns_core_province = 31 # Savolax
+			owns_core_province = 4123 # Pirkanmaa
+			owns_core_province = 19 #Österbotten
+			NOT = { exists = FIN }
+		}
+		effect = {
+			change_tag = FIN
+			on_change_tag_effect = yes
+			set_capital = 28
+			bothnia_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = FIN
+			}
+			laponia_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = FIN
+			}
+
+			pomor_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = FIN
+			}
+			karelia_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = FIN
+			}
+			north_karelia = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = FIN
+			}
+			if = {
+				limit = { NOT = { primary_culture = finnish } }
+				change_primary_culture = finnish
+			}
+			add_accepted_culture = swedish
+			add_prestige = 25
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			if = {
+				limit = {
+					has_custom_ideas = no
+					NOT = { has_idea_group = FIN_ideas }
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+}

@@ -1,0 +1,61 @@
+namespace = von_mors_munster
+
+#The Death of Heinrich II von Mörs
+country_event = {
+	id = von_mors_munster.1
+	title = von_mors_munster.1.t
+	desc = von_mors_munster.1.d
+	picture = DEATH_OF_HEIR_eventPicture
+	mean_time_to_happen = {
+		days = 1
+	}
+        trigger = {
+		is_or_was_tag = { tag = MUN }
+		NOT = {
+			AND = {
+				MUN = {
+					has_ruler = "Heinrich II"
+				}
+				OSN = {
+					has_ruler = "Heinrich II"
+				}
+			}		
+		}
+
+	}
+
+	fire_only_once = yes
+
+	immediate = {
+		hidden_effect =  {
+			MUN = {
+				free_vassal = OSN
+			}
+			if = {
+				limit = {
+					MUN = {
+						has_ruler = "Heinrich II"
+					}
+				}
+				MUN = {
+					kill_ruler = yes
+				}
+			}
+			else_if {
+				limit = {
+					OSN = {
+						has_ruler = "Heinrich II"
+					}
+				}
+				OSN = {
+					kill_ruler = yes
+					country_event = { id = von_mors_osnabruck.1 }
+				}
+			}
+		}
+	}
+	option = {
+		name = von_mors_munster.1.a
+		custom_tooltip =  von_mors_munster.1.tt
+	}
+}

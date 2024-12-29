@@ -1,0 +1,27 @@
+novgorod_sprite_pack = {
+	# Tests against every tag in game
+country_trigger = {
+			tag = NOV
+	}
+
+	sprite_infantry = {
+		0 = PSK_INFANTRY_1
+		1 = PSK_INFANTRY_2
+		2 = PSK_INFANTRY_3
+		3 = PSK_INFANTRY_4
+	}
+
+	sprite_cavalry = {
+		0 = PSK_CAVALRY_1
+		1 = PSK_CAVALRY_2	
+		2 = PSK_CAVALRY_3
+		3 = PSK_CAVALRY_4
+	}
+
+	sprite_artillery = {
+		0 = PSK_ARTILLERY_1
+		1 = PSK_ARTILLERY_2
+		2 = PSK_ARTILLERY_3
+		3 = PSK_ARTILLERY_4
+	}
+}

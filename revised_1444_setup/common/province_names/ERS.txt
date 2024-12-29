@@ -1,0 +1,6 @@
+410 = { "Tesifon" "Tesifon" }
+428 = { "Ray" "Ray" }
+429 = { "Spahan" "Spahan" }
+446 = { "Harew" "Harew" }
+2218 = { "Istakhr" "Istakhr" }
+4338 = { "Abharrud" "Abhar" }

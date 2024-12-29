@@ -1,0 +1,27 @@
+ayyubid_sprite_pack = {
+	# Tests against every tag in game
+country_trigger = {
+			tag = HSN
+	}
+
+	sprite_infantry = {
+		0 = SYR_INFANTRY_1
+		1 = SYR_INFANTRY_2
+		2 = SYR_INFANTRY_3
+		3 = SYR_INFANTRY_4
+	}
+
+	sprite_cavalry = {
+		0 = SYR_CAVALRY_1
+		1 = SYR_CAVALRY_2	
+		2 = SYR_CAVALRY_3
+		3 = SYR_CAVALRY_4
+	}
+
+	sprite_artillery = {
+		0 = SYR_ARTILLERY_1
+		1 = SYR_ARTILLERY_2
+		2 = SYR_ARTILLERY_3
+		3 = SYR_ARTILLERY_4
+	}
+}

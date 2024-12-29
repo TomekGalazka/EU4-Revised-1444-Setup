@@ -1,0 +1,24 @@
+government = theocracy
+add_government_reform = leading_clergy_reform
+primary_culture = hessian
+religion = catholic
+technology_group = western
+capital = 2972	# Paderborn
+fixed_capital = 2972 # Cannot move capital away from this province & no power cost to move to it
+
+
+1414.4.9 = {
+	monarch = {
+		name = "Dietrich II"
+		dynasty = "von Mörs"
+		birth_date = 1385.1.1
+		adm = 4
+		dip = 1
+		mil = 1
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = conqueror_personality
+	add_ruler_personality = greedy_personality
+	add_ruler_personality = obsessive_perfectionist_personality
+	set_ruler_flag = is_dietrich_of_koln_flag
+}

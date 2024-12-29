@@ -1,0 +1,59 @@
+namespace = von_mors_cologne
+
+#The Death of Dietrich II von Mörs
+country_event = {
+	id = von_mors_cologne.1
+	title = von_mors_cologne.1.t
+	desc = von_mors_cologne.1.d
+	picture = DEATH_OF_HEIR_eventPicture
+	fire_only_once = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+        trigger = {
+		is_or_was_tag = { tag = KOL }
+		NOT = {
+			AND = {
+				KOL = {
+					has_ruler = "Dietrich II"
+				}
+				PAD = {
+					has_ruler = "Dietrich II"
+				}
+			}		
+		}
+
+	}
+
+	immediate = {
+		hidden_effect =  {
+			KOL = {
+				free_vassal = PAD
+			}
+			if = {
+				limit = {
+					KOL = {
+						has_ruler = "Dietrich II"
+					}
+				}
+				KOL = {
+					kill_ruler = yes
+				}
+			}
+			else_if {
+				limit = {
+					PAD = {
+						has_ruler = "Dietrich II"
+					}
+				}
+				PAD = {
+					kill_ruler = yes
+				}
+			}
+		}
+	}
+	option = {
+		name = von_mors_cologne.1.a
+		custom_tooltip =  von_mors_cologne.1.tt
+	}
+}

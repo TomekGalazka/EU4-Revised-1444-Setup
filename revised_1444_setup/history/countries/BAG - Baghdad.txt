@@ -1,0 +1,32 @@
+government = tribal
+add_government_reform = tribal_federation
+primary_culture = azerbaijani
+religion = shiite
+technology_group = muslim
+capital = 410 # Baghdad
+religious_school = ismaili_school
+add_accepted_culture = al_iraqiya_arabic
+
+1444.1.1 = {
+	monarch = {
+		name = "Ispend Mirza"
+		dynasty = "Qara Qoyunlu"
+		birth_date = 1399.10.18
+		death_date = 1445.3.8
+		adm = 2
+		dip = 3
+		mil = 4
+	}
+}
+
+1444.1.1 = {
+	heir = {
+		name = "Fulad Mirza"
+		dynasty = "Qara Qoyunlu"
+		claim = 95
+		death_date = 1446.6.1
+		adm = 1
+		dip = 0
+		mil = 1
+	}
+}

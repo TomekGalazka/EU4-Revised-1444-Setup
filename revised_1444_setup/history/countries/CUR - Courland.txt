@@ -1,0 +1,21 @@
+government = theocracy
+add_government_reform = leading_clergy_reform
+technology_group = western
+primary_culture = baltic_german
+historical_friend = LIV
+religion = catholic
+add_accepted_culture = latvian
+capital = 1935	# Kurland
+fixed_capital = 1935 # Cannot move capital away from this province & no power cost to move to it
+
+
+#Bishops
+1425.1.1 = {
+	monarch = {
+		name = "Johann Tiergart"
+		death_date = 1456.1.1
+		dip = 2
+		adm = 3
+		mil = 2
+	}
+}

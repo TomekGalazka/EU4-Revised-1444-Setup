@@ -1,0 +1,10 @@
+government = republic
+add_government_reform = veche_republic
+government_rank = 1
+mercantilism = 25
+primary_culture = russian
+religion = orthodox
+technology_group = eastern
+add_accepted_culture = uralic
+capital = 1079	# Viatka
+fixed_capital = 1079 # Cannot move capital away from this province & no power cost to move to it

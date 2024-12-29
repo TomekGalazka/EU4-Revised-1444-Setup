@@ -1,0 +1,33 @@
+government = monarchy
+add_government_reform = iqta
+primary_culture = mazandarani
+religion = shiite
+technology_group = muslim
+capital = 426 # Rustamdar
+religious_school = jafari_school
+
+1394.1.1 = {
+	monarch = {
+		name = "Kayumarth I"
+		dynasty = "Baduspanid"
+		birth_date = 1385.1.1
+		death_date = 1453.1.1
+		adm = 3
+		dip = 5
+		mil = 4
+	}
+}
+
+
+1444.1.1 = {
+	heir = {
+		name = "Iskandar"
+		monarch_name = "Iskandar IV"
+		dynasty = "Baduspanid"
+		death_date = 1476.1.1
+		claim = 95
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}

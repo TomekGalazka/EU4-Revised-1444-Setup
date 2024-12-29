@@ -1,0 +1,6 @@
+government = monarchy
+add_government_reform = principality
+technology_group = eastern
+religion = catholic
+primary_culture = ruthenian
+capital = 281	# Podolia

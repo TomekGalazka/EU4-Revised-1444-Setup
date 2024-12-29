@@ -1,0 +1,5 @@
+#Lithuanian country modifier at a start
+
+lithuanian_decentralisation = {
+	reduced_liberty_desire = 25
+}

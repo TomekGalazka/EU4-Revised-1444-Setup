@@ -1,0 +1,21 @@
+government = theocracy
+add_government_reform = leading_clergy_reform
+technology_group = western
+primary_culture = baltic_german
+historical_friend = LIV
+religion = catholic
+capital = 35	# Osel
+add_accepted_culture = estonian
+fixed_capital = 35 # Cannot move capital away from this province & no power cost to move to it
+
+
+#Bishops
+1439.1.1 = {
+	monarch = {
+		name = "Ludolf Grove"
+		death_date = 1458.03.11
+		dip = 4
+		adm = 4
+		mil = 3
+	}
+}

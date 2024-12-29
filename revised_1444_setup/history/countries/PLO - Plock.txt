@@ -1,0 +1,20 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = eastern
+religion = catholic
+primary_culture = polish
+capital = 256	# Plock
+add_accepted_culture = ruthenian
+
+# Plock-Rawa Dukes#
+1426.1.21 = {
+	monarch = {
+		name = "Wladyslaw I"
+		dynasty = "Piast"
+		birth_date = 1406.1.1
+		dip = 2
+		adm = 2
+		mil = 1
+	}
+}

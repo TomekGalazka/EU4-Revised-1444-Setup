@@ -1,0 +1,19 @@
+government = tribal
+add_government_reform = tribal_federation
+government_rank = 1
+primary_culture = kurdish
+religion = tengri_pagan_reformed
+secondary_religion = sunni
+technology_group = muslim
+capital = 2309 #Sinjar
+add_accepted_culture = al_iraqiya_arabic
+
+1444.1.1 = {
+	monarch = {
+		name = "Mir Jafar"
+		dynasty = "Daseni"
+		adm = 2
+		dip = 3
+		mil = 5
+	}
+}

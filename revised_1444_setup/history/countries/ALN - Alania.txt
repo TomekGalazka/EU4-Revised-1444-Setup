@@ -1,0 +1,10 @@
+government = tribal
+add_government_reform = tribal_federation
+government_rank = 1
+primary_culture = circassian
+religion = tengri_pagan_reformed
+secondary_religion = orthodox
+technology_group = eastern
+capital = 2201 # Alania
+
+# Being a confederation, there were a lot of Princes that ruled small areas with no significant leader, other than maybe Petrezok.  They banded together for defense when needed.

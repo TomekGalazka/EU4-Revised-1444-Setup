@@ -1,0 +1,20 @@
+government = monarchy
+add_government_reform = principality
+technology_group = eastern
+religion = orthodox
+primary_culture = ruthenian
+capital = 279	# Volhynia
+
+1434.1.1 = {
+	monarch = {
+		name = "Svitrigaila"
+		dynasty = "Gediminai"
+		dip = 2
+		adm = 2
+		mil = 4
+		birth_date = 1370.1.1
+		death_date = 1452.2.10
+		religion = catholic
+		culture = lithuanian
+	}
+}

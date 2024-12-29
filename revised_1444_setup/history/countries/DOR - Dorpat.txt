@@ -1,0 +1,21 @@
+government = theocracy
+add_government_reform = leading_clergy_reform
+technology_group = western
+primary_culture = baltic_german
+historical_friend = LIV
+religion = catholic
+capital = 1834	# Dorpat
+add_accepted_culture = estonian
+fixed_capital = 1834 # Cannot move capital away from this province & no power cost to move to it
+
+
+#Bishops
+1441.1.1 = {
+	monarch = {
+		name = "Bartholomaus Savijerwe"
+		death_date = 1459.1.1
+		dip = 3
+		adm = 3
+		mil = 1
+	}
+}

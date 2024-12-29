@@ -1,0 +1,96 @@
+country_decisions = {
+
+	tlemcen_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
+			}
+			NOT = { tag = TLC  }
+			NOT = { tag = HLR }
+			NOT = { tag = PAP }
+			OR = {
+				primary_culture = algerian
+				primary_culture = berber
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 336	# Tlemcen
+				province_id = 4562	# Mers el Kebir
+				province_id = 2461	# Dahra
+				province_id = 2462	# Ouarsenis
+				province_id = 2463	# Kasdir
+				province_id = 2459	# Titteri
+
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = TLC }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no			
+			owns_core_province = 336	# Tlemcen
+			owns_core_province = 4562	# Mers el Kebir
+			owns_core_province = 2461	# Dahra
+			owns_core_province = 2462	# Ouarsenis
+			owns_core_province = 2463	# Kasdir
+			owns_core_province = 2459	# Titteri
+		}
+		effect = {
+			change_tag = TLC
+			on_change_tag_effect = yes
+			add_government_reform = barbary_iqta
+			swap_non_generic_missions = yes
+			set_capital = 336
+			remove_non_electors_emperors_from_empire_effect = yes
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			if = {
+				limit = { NOT = { primary_culture = berber } }
+				change_primary_culture = berber
+			}
+			add_accepted_culture = algerian
+			add_prestige = 25
+			if = {
+				limit = {
+					has_custom_ideas = no
+					NOT = { has_idea_group = berber_ideas }
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+	
+}

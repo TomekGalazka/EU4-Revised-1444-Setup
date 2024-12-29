@@ -1,0 +1,81 @@
+namespace = cilicia
+
+#Creation of Cilicia
+country_event = {
+	id = cilicia.1
+	title = "cilicia.1.t"
+	desc = "cilicia.1.d"
+	picture = COPTIC_CITY_eventPicture
+	fire_only_once = yes
+	trigger = {
+		NOT = { 
+			exists = CIL
+		}
+		ROOT = {
+			owns = 327
+		}
+		is_subject = no
+		is_at_war = no
+		num_of_cities = 2
+		327 = {
+			culture = armenian
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 6
+	}
+
+	immediate = {
+		hidden_effect = {
+			327 = {
+				add_core = CIL
+			}
+			332 = {
+				add_core = CIL
+			}
+			4298 = {
+				add_core = CIL
+			}
+			release = CIL
+			CIL = {
+				change_government = monarchy
+				add_government_reform = autocracy_reform
+				change_religion = coptic
+				set_government_rank = 2
+				adopt_reform_progress = ROOT
+			}
+		}
+	}
+	
+	option = {
+		name = "cilicia.1.a"
+		ai_chance = {
+			factor = 1
+		}
+		create_march = CIL
+	}
+	option = {
+		name = "cilicia.1.b"
+		ai_chance = {
+			factor = 0
+		}
+		CIL = {
+			declare_war_with_cb = {
+				who = ROOT
+				casus_belli = cb_independence_war
+			}
+		}
+	}
+	option = {
+		name = "cilicia.1.c"
+		trigger = {
+			ai = no
+		}
+		ai_chance = {
+			factor = 0
+		}
+		create_alliance = CIL
+		switch_tag = CIL
+	}
+}

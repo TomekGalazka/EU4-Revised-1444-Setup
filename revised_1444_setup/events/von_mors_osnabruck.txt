@@ -1,0 +1,16 @@
+namespace = von_mors_osnabruck
+
+#The Death of Heinrich II von Mörs
+country_event = {
+	id = von_mors_osnabruck.1
+	title = von_mors_munster.1.t
+	desc = von_mors_munster.1.d
+	picture = DEATH_OF_HEIR_eventPicture
+	is_triggered_only = yes
+
+
+	option = {
+		name = von_mors_munster.1.a
+		custom_tooltip =  von_mors_munster.1.tt
+	}
+}

@@ -1,0 +1,21 @@
+government = theocracy
+add_government_reform = leading_clergy_reform
+technology_group = western
+primary_culture = baltic_german
+historical_friend = LIV
+religion = catholic
+capital = 36	# Estland
+add_accepted_culture = estonian
+fixed_capital = 36 # Cannot move capital away from this province & no power cost to move to it
+
+
+#Archbishops
+1419.11.20 = {
+	monarch = {
+		name = "Heinrich Uexkull"
+		death_date = 1370.1.10
+		dip = 3
+		adm = 4
+		mil = 4
+	}
+}

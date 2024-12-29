@@ -1,0 +1,114 @@
+country_decisions = {
+
+	lithuanian_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = formed_lithuania_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
+			}
+			NOT = { exists = PLC }
+			NOT = { tag = LIT }
+			OR = {
+				ai = no
+				AND = {
+					NOT = { exists = LIT }
+					num_of_cities = 6
+				}
+			}
+			NOT = { tag = HLR }
+			NOT = { tag = PAP }
+			OR = {
+				primary_culture = lithuanian
+				primary_culture = ruthenian
+				primary_culture = byelorussian
+				primary_culture = ryazanian
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 272	# Lithuania
+				province_id = 270	# Trakai
+				province_id = 1936	# Kovno
+				province_id = 277	# Brest
+				province_id = 275	# Polotsk
+				province_id = 4545	# Sluck
+				province_id = 4537	# Nowogrodek
+				province_id = 276	# Minsk
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = LIT }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no			
+			owns_core_province = 272	# Lithuania
+			owns_core_province = 270	# Trakai
+			owns_core_province = 1936	# Kovno
+			owns_core_province = 277	# Brest
+			owns_core_province = 275	# Polotsk
+			owns_core_province = 4545	# Sluck
+			owns_core_province = 4537	# Nowogrodek
+			owns_core_province = 276	# Minsk
+		}
+		effect = {
+			change_tag = LIT
+			on_change_tag_effect = yes
+			add_government_reform = grand_duchy_reform
+			swap_non_generic_missions = yes
+			set_capital = 272
+			remove_non_electors_emperors_from_empire_effect = yes
+			baltic_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = LIT
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			if = {
+				limit = { NOT = { primary_culture = lithuanian } }
+				change_primary_culture = lithuanian
+			}
+			add_accepted_culture = byelorussian
+			add_accepted_culture = ruthenian
+			add_accepted_culture = ryazanian
+
+			add_prestige = 25
+			if = {
+				limit = {
+					has_custom_ideas = no
+					NOT = { has_idea_group = LIT_ideas }
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			set_country_flag = formed_lithuania_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+	
+}

@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western
+primary_culture = hannoverian
+religion = catholic
+capital = 4775 # Bielefeld-Lippe`
+
+1429.8.11 = {
+	monarch = {
+		name = "Bernhard VII"
+		dynasty = "zur Lippe"
+		birth_date = 1428.12.14
+		death_date = 1511.4.2
+		adm = 1
+		dip = 0
+		mil = 2
+	}
+}

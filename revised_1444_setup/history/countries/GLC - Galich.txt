@@ -1,0 +1,26 @@
+# Principality of Galich
+
+government = monarchy
+add_government_reform = principality
+government_rank = 1
+primary_culture = russian
+religion = orthodox
+technology_group = eastern
+capital = 1957	# Galich
+
+1444.1.1 = {
+	monarch = {
+		name = "Dmitry Shemiaka"
+		dynasty = "Rurikovich"
+		adm = 2
+		dip = 1
+		mil = 5
+		birth_date = 1421.1.1
+		death_date = 1453.7.17
+		leader = { name = "Dmitry Shemiaka"	type = general	fire = 3	shock = 4	manuever = 3	siege = 0	death_date = 1453.1.1 }
+	}
+}
+
+exile_ruler_as = {
+				name = dmitry_shemiaka
+			}
