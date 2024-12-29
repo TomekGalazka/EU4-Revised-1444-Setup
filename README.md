@@ -3,6 +3,9 @@
 
 This Europa Universalis IV mod enhances the 1444 start date, offering a more immersive and historically nuanced experience. To use this mod, you must own the original Europa Universalis IV game. After downloading the files, simply place them in the following directory: C:\Users\user\OneDrive\Documents\Paradox Interactive\Europa Universalis IV\mod.
 
+You can also download my mod via Steam Workshop:
+[EU4 Revised 1444 Setup](https://steamcommunity.com/sharedfiles/filedetails/?id=3363590948&searchtext=1444+revised)
+
 
 ═════════════════════════════════════════
 
