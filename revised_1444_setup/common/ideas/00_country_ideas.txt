@@ -18431,3 +18431,46 @@ voc_ideas = {
 		land_forcelimit_modifier = 0.1
 	}
 }
+
+exarchate_ideas = {
+	start = {
+		discipline = 0.05
+		leader_land_manuever = 1
+	}
+	
+	bonus = {
+		manpower_in_true_faith_provinces = 0.15
+	}
+	
+	trigger = {
+		OR = {
+			tag = CTA
+			tag = CDR
+		}
+	}
+	
+	free = yes		#will be added at load.
+	
+	legionary_veterans = {
+		infantry_power = 0.1
+	}
+	victories_of_the_exarchs = {
+		leader_land_shock = 1
+	}
+	cataphract_legacy = {
+		cavalry_power = 0.1
+	}
+	imperial_governance = {
+		stability_cost_modifier = -0.1
+	}
+	defenders_of_the_faith = {
+		global_missionary_strength = 0.02
+	}
+	fortress_provinces = {
+		garrison_size = 0.2
+		defensiveness = 0.15
+	}
+	martial_traditions_of_constantinople = {
+		army_tradition = 0.5
+	}
+}

@@ -5,6 +5,10 @@ country_decisions = {
 			normal_or_historical_nations = yes
 			was_never_end_game_tag_trigger = yes
 			NOT = { tag = QAR }
+			NOT = { tag = MAM }
+			NOT = { tag = TUR }
+			NOT = { tag = PER }
+			NOT = { tag = TIM }
 			OR = {
 				ai = no
 				is_playing_custom_nation = no
@@ -80,7 +84,7 @@ country_decisions = {
 			set_capital = 416
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 0
 		}
 		ai_importance = 400
 	}

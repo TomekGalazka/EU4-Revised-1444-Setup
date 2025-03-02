@@ -1026,9 +1026,88 @@ MEE_BYZ_conquest_4 = {
 		}
 	}
 	
+	tre_liberate_cilicia = {
+	    icon = arm_restore_armenian_cilicia
+		required_missions = { BYZ_coast }
+		position = 4
+		
+		provinces_to_highlight = {
+			OR = {
+				province_id = 327
+				province_id = 332
+				province_id = 4298
+				province_id = 4310
+				province_id = 2303
+			}
+			OR = {
+				NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			}
+		}
+		
+		trigger = {
+			327 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			332 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			4298 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			4310 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			2303 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		
+		effect = {
+			set_country_flag = byz_wont_convert_armenians
+			tooltip = {
+				add_accepted_culture_or_dip_power = { culture = armenian dip_reward = yes }
+			}
+			custom_tooltip = tre_empty
+			327 = {
+				change_culture = armenian
+				change_religion = coptic
+				add_local_autonomy = -100
+				add_nationalism = -20
+			}
+			332 = {
+				change_culture = armenian
+				change_religion = coptic
+				add_local_autonomy = -100
+				add_nationalism = -20
+			}
+			4298 = {
+				change_culture = armenian
+				change_religion = coptic
+				add_local_autonomy = -100
+				add_nationalism = -20
+			}
+			4310 = {
+				change_culture = armenian
+				change_religion = coptic
+				add_local_autonomy = -100
+				add_nationalism = -20
+			}
+			2303 = {
+				change_culture = armenian
+				change_religion = coptic
+				add_local_autonomy = -100
+				add_nationalism = -20
+			}
+			custom_tooltip = tre_cilicia_culture_conversion
+			hidden_effect = {
+				add_accepted_culture_or_dip_power = { culture = armenian dip_reward = yes }
+			}
+		}
+	}
+
 	BYZ_avenge_1071 = {
 		icon = byz_avenge_1071
-		required_missions = { BYZ_coast }
+		required_missions = { tre_liberate_cilicia }
 		position = 5
 		provinces_to_highlight = {
 			region = anatolia_region
@@ -1282,6 +1361,82 @@ MEE_BYZ_conquest_4 = {
 			}
 		}
 	}
+
+mam_highway_empire = {
+		icon = mam_highway_empire
+		required_missions = { BYZ_breadbasket }
+		position = 9
+		provinces_to_highlight = {
+			OR = {
+				province_id = 4316 
+				province_id = 2315
+			}
+		}
+		trigger = {
+			if = {
+				limit = { has_dlc = "Leviathan" }
+				4316 = {
+					owned_by = ROOT
+					OR = {
+						num_of_times_improved = 10
+						has_great_project = { 
+							type = suez_canal 
+							tier = 3 
+						}
+					}
+				}
+				4316 = { has_any_ongoing_construction = no }
+				4316 = {
+					NOT = { num_free_building_slots = 1 } 
+				}
+			}
+			else = {
+				4316 = { 
+					num_of_times_improved = 10 
+					owned_by = ROOT
+				}
+			}
+			4316 = { num_of_buildings_in_province = 5 }
+			2315 = { owned_by = ROOT }
+			4316 = { 
+				owned_by = ROOT 
+				controlled_by = ROOT
+				has_siege = no
+			}
+			is_at_war = no			
+		}
+		effect = {
+			388 = {
+				add_trade_modifier = {
+					who = ROOT
+					duration = -1
+					power = 100
+					key = BYZ_control_red_sea
+				}
+			}
+			if = {
+				limit = { 
+					has_dlc = "Leviathan" 
+					4316 = {
+						NOT = {
+							has_great_project = { 
+								type = suez_canal 
+								tier = 3 
+							}
+						}
+					}
+					NOT = { adm_tech = 22 }
+				}
+				country_event = { id = MEE_Byzantine_Events.59 }
+				custom_tooltip = flavor_mam.115_tt
+			}
+			else = {
+				4316 = { add_base_production = 3 }
+			}
+			add_mercantilism = 3
+		}
+	}
+
 }
 
 MEE_BYZ_defense_5 = {
@@ -1479,6 +1634,7 @@ MEE_BYZ_conquest_5 = {
 					OR = {
 						province_id = 330
 						province_id = 2410
+						province_id = 286
 					}
 					NOT = { country_or_non_sovereign_subject_holds = ROOT }
 				}
@@ -1489,6 +1645,7 @@ MEE_BYZ_conquest_5 = {
 		trigger = {
 			owns_or_non_sovereign_subject_of = 330
 			owns_or_non_sovereign_subject_of = 2410
+			owns_or_non_sovereign_subject_of = 286
 			NOT = { exists = TRE }
 			NOT = { exists = FEO }
 		}
@@ -1502,19 +1659,51 @@ MEE_BYZ_conquest_5 = {
 			
 			custom_tooltip = " "
 			
-			country_event_with_effect_insight = {
-				id = MEE_Byzantine_Events.10
-				effect = "
-					330 = {
-						set_center_level_2_center_of_trade = yes #NOTE: this vanilla scripted effect is overwritten
+			capital_scope = {
+				add_trade_node_income = 24
+			}
+		
+			add_country_modifier = {
+				name = BYZ_offshoots_defeated
+				duration = -1
+			}
+		
+			add_power_projection_mission = { amount = 25 }
+
+			if = {
+				limit = {
+					NOT=  { 
+						was_tag = TRE
 					}
-					custom_tooltip = \" \"
-					add_country_modifier = {
-						name = BYZ_offshoots_defeated
+				}
+				2410 = {
+					add_province_modifier = {
+						name = "tre_kalamita_fortress"
 						duration = -1
 					}
-					add_power_projection_mission = { amount = 25 }
-				"
+				}
+				1322 = {
+					add_trade_modifier = {
+						who = ROOT
+						duration = -1
+						power = 50
+						key = tre_black_sea_domination
+					}
+				}
+				286 = {
+					center_of_trade = 1
+				}
+
+				country_event_with_effect_insight = {
+					id = MEE_Byzantine_Events.10
+					effect = "
+						330 = {
+							set_center_level_2_center_of_trade = yes #NOTE: this vanilla scripted effect is overwritten
+							change_trade_goods = gold
+							add_base_production = 2
+						}
+						"
+				}
 			}
 		}
 	}
@@ -1576,7 +1765,7 @@ MEE_BYZ_conquest_5 = {
 						area = armenia_area
 						area = shirvan_area
 					}
-					value = 18
+					value = 14
 				}
 			}
 		}
@@ -1593,6 +1782,44 @@ MEE_BYZ_conquest_5 = {
 			
 			custom_tooltip = " "
 			
+			custom_tooltip = tre_greco_georgian_tt
+			if = {
+				limit = {
+					accepted_culture = georgian
+				}
+				remove_accepted_culture = georgian
+			}
+			add_accepted_culture = georgian_new
+			hidden_effect = {
+				every_country = {
+					limit = {
+						primary_culture = georgian
+					}
+					change_primary_culture = georgian_new
+					if = {
+						limit = {
+							has_heir = yes
+						}
+						set_heir_culture = georgian_new
+					}
+					if = {
+						limit = {
+							has_consort = yes
+							consort_culture = georgian
+						}
+						set_consort_culture = georgian_new
+					}
+				}
+				every_province = {
+					limit = {
+						culture = georgian
+					}
+					change_culture = georgian_new
+					change_original_culture = georgian_new
+				}
+			}
+
+
 			simple_dynamic_effect = {
 				first_custom_tooltip = BYZ_if_done_via_conquest
 				first_limit = "

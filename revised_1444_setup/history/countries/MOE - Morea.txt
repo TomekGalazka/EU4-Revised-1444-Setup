@@ -48,9 +48,9 @@ fixed_capital = 145 # Cannot move capital away from this province & no power cos
 		dynasty = "Palaiologos"
 		birth_date = 1407.1.1
 		death_date = 1460.5.29
-		dip = 3
-		adm = 5
-		mil = 2
+		dip = 2
+		adm = 1
+		mil = 1
 	}
 }
 1443.1.1 = {
@@ -60,9 +60,9 @@ fixed_capital = 145 # Cannot move capital away from this province & no power cos
 		birth_date = 1409.1.1
 		death_date = 1460.5.29
 		claim = 80
-		adm = 4 
-		dip = 3 
-		mil = 2
+		adm = 3 
+		dip = 2 
+		mil = 3
 	}
 }
 

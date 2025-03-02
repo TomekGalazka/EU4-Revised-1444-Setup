@@ -468,3 +468,10 @@ viatka_sprite_pack = 100
 
 #Novgorod
 novgorod_sprite_pack = 100
+
+#Cilicia
+cilicia_sprite_pack = 100
+
+#Exarchates
+carthage_sprite_pack = 100
+ravenna_sprite_pack = 100

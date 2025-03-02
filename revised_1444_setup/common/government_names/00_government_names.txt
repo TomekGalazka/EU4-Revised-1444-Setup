@@ -163,6 +163,43 @@ georgian = {
     }
 }
 
+exarchate = {
+	rank = {
+		1 = EXARCHATE
+		2 = EXARCHATE
+		3 = EXARCHATE
+	}
+
+	ruler_male = {
+		1 = EXARCH
+		2 = EXARCH
+		3 = EXARCH
+	}
+
+	ruler_female = {
+		1 = EXARCH
+		2 = EXARCH
+		3 = EXARCH
+	}
+
+	consort_male = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+	}
+
+	consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+	}
+	
+	trigger = {
+		government = republic
+		has_reform = exarchate_reform
+	}
+}
+
 stateless_society = {
 	rank = {
 		1 = STATELESS_SOCIETY

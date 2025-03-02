@@ -9,18 +9,20 @@ tur_conquerors_of_the_near_east = {
 				tag = TUR
 			}
 			AND = {
-				primary_culture = turkish
+				NOT = { has_dlc = "King of Kings" }
 				OR = {
-					AND = {
-						NOT = { was_tag = AKK }
-						NOT = { was_tag = QAR }
-					}
-					AND = {
-						OR = {
-							was_tag = AKK
-							was_tag = QAR
-						}
-						NOT = { has_dlc = "King of Kings" }
+					tag = AKK
+					tag = QAR
+				}
+			}
+			AND = {
+				primary_culture = turkish
+				NOT = {
+					OR = {
+						was_tag = AKK
+						was_tag = QAR
+						tag = TUR
+						tag = AKK
 					}
 				}
 			}
@@ -282,6 +284,8 @@ tur_eastern_balkans = {
 			}
 			AND = {
 				primary_culture = turkish
+				NOT = { tag = TUR }
+				NOT = { tag = AKK }
 				OR = {
 					AND = {
 						NOT = { was_tag = AKK }
@@ -391,6 +395,8 @@ tur_conquest_of_middle_east = {
 			}
 			AND = {
 				primary_culture = turkish
+				NOT = { tag = TUR }
+				NOT = { tag = AKK }
 				OR = {
 					AND = {
 						NOT = { was_tag = AKK }
@@ -758,6 +764,8 @@ tur_black_sea = {
 			}
 			AND = {
 				primary_culture = turkish
+				NOT = { tag = TUR }
+				NOT = { tag = AKK }
 				OR = {
 					AND = {
 						NOT = { was_tag = AKK }
@@ -847,6 +855,8 @@ tur_eastern_mediterrenean_missions = {
 			}
 			AND = {
 				primary_culture = turkish
+				NOT = { tag = TUR }
+				NOT = { tag = AKK }
 				OR = {
 					AND = {
 						NOT = { was_tag = AKK }
@@ -1127,6 +1137,8 @@ tur_conquer_western_mediterrenean = {
 			}
 			AND = {
 				primary_culture = turkish
+				NOT = { tag = TUR }
+				NOT = { tag = AKK }
 				OR = {
 					AND = {
 						NOT = { was_tag = AKK }
@@ -1252,6 +1264,8 @@ tur_indian_ocean = {
 			}
 			AND = {
 				primary_culture = turkish
+				NOT = { tag = TUR }
+				NOT = { tag = AKK }
 				OR = {
 					AND = {
 						NOT = { was_tag = AKK }

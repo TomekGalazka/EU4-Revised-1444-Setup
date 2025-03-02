@@ -11,7 +11,7 @@ capital = 272 # Vilnius
 set_estate_privilege = estate_nobles_strong_duchies
 add_country_modifier = { 
     name = lithuanian_decentralisation
-    duration = 7300  
+    duration = 3650  
 }
 
 

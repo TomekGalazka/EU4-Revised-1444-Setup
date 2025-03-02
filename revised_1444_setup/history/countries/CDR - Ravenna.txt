@@ -1,0 +1,10 @@
+government = republic
+add_government_reform = exarchate_reform
+government_rank = 1
+primary_culture = griko
+add_accepted_culture = romagnan
+add_accepted_culture = umbrian
+religion = orthodox
+technology_group = eastern
+capital = 114 # Ravenna
+fixed_capital = 114

@@ -55,6 +55,7 @@ european_colony = {}
 mongol_brother_realm = {}
 integrated_personal_union = {}
 soyurghal_subject_type = {}
+exarchate = {}
 
 default = {
 	# Graphics:
@@ -1782,6 +1783,74 @@ soyurghal_subject_type = {
 	}
 	modifier_overlord = {
 		modifier = soyurghal_base_overlord_modifiers
+	}
+}
+
+exarchate = {
+	copy_from = march
+	
+	# Graphics:
+	sprite = GFX_icon_protectorate
+	diplomacy_overlord_sprite = GFX_icon_protectorate
+	diplomacy_subject_sprite = GFX_icon_protectorate
+
+	# Properties:
+	takes_diplo_slot = no
+	gets_help_with_rebels = yes
+	can_use_claims = yes
+	extend_trading_range = yes
+	counts_for_borders = yes
+	pays_overlord = 1.25
+	military_focus = 1.5
+	base_liberty_desire = -50.0
+	can_be_annexed = yes
+	forcelimit_to_overlord = 0.2
+	naval_forcelimit_to_overlord = 0.2
+	manpower_to_overlord = 0.2
+	sailors_to_overlord = 0.2
+	is_march = yes
+	forms_trade_companies = no
+	liberty_desire_development_ratio = 0.1
+	annex_cost_per_development = 0.6
+	relative_power_class = 1
+	trust_on_start = 20
+
+	# Subject Interactions:
+	enforce_culture = yes
+	siphon_income = yes
+	send_additional_troops = yes
+	place_relative_on_throne = no
+	seize_territory = yes
+	replace_governor = yes
+
+	# Modifiers:
+	modifier_overlord = clear #We don't want to duplicate the ones inherited from vassal
+	modifier_subject = clear #Ditto
+	modifier_subject = {
+		modifier = subject_nation
+	}
+	modifier_overlord = {
+		modifier = march_subject
+	}
+	modifier_subject = {
+		modifier = march_bonus
+	}
+	modifier_subject = {
+		modifier = subject_tax_modifier
+		trigger = {
+			overlord = {
+				has_government_attribute = subject_tax_modifier_25
+			}
+		}
+	}
+	modifier_subject = {
+		modifier = same_religion_subject_bonus_mod
+		trigger = {
+			overlord = {
+				has_government_attribute = same_religion_subject_bonus
+				religion = PREV
+			}
+		}
 	}
 }
 

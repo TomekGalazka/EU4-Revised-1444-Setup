@@ -1,0 +1,27 @@
+carthage_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		tag = CTA
+	}
+
+	sprite_infantry = {
+		0 = TLC_INFANTRY_1
+		1 = TLC_INFANTRY_2
+		2 = TLC_INFANTRY_3
+		3 = TLC_INFANTRY_4
+	}
+
+	sprite_cavalry = {
+		0 = TLC_CAVALRY_1
+		1 = TLC_CAVALRY_2
+		2 = TLC_CAVALRY_3
+		3 = TLC_CAVALRY_4
+	}
+
+	sprite_artillery = {
+		0 = TLC_ARTILLERY_1
+		1 = TLC_ARTILLERY_2
+		2 = TLC_ARTILLERY_3
+		3 = TLC_ARTILLERY_4
+	}
+}

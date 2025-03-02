@@ -1,0 +1,27 @@
+cilicia_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		tag = CIC
+	}
+
+	sprite_infantry = {
+		0 = ARM_INFANTRY_1
+		1 = ARM_INFANTRY_2
+		2 = ARM_INFANTRY_3
+		3 = ARM_INFANTRY_4
+	}
+
+	sprite_cavalry = {
+		0 = ARM_CAVALRY_1
+		1 = ARM_CAVALRY_2
+		2 = ARM_CAVALRY_3
+		3 = ARM_CAVALRY_4
+	}
+	
+	sprite_artillery = {
+		0 = ARM_ARTILLERY_1
+		1 = ARM_ARTILLERY_2
+		2 = ARM_ARTILLERY_3
+		3 = ARM_ARTILLERY_4
+	}
+}

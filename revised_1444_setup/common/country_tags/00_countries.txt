@@ -249,6 +249,8 @@ MFA = "countries/Montferrat.txt"
 LUC = "countries/Lucca.txt"
 LAN	= "countries/Florence.txt"
 JAI	= "countries/Malta.txt"
+CDR	= "countries/Ravenna.txt"
+
 
 #Low Countries
 BRB	= "countries/Brabant.txt"
@@ -371,6 +373,7 @@ SLE = "countries/Sale.txt"
 TET = "countries/Tetouan.txt"
 MRK = "countries/Marrakesh.txt"
 CYR = "countries/Cyrenaica.txt"
+CTA = "countries/Carthage.txt"
 
 #Central Asia
 KZH	= "countries/Kazakh.txt"

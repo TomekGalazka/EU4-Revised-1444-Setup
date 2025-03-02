@@ -1,0 +1,9 @@
+government = republic
+add_government_reform = exarchate_reform
+primary_culture = greek
+add_accepted_culture = tunisian
+add_accepted_culture = berber
+religion = orthodox
+technology_group = eastern
+capital = 341
+fixed_capital = 341
