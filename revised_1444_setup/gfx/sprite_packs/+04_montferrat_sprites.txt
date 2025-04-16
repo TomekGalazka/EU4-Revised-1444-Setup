@@ -1,0 +1,27 @@
+montferrat_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		tag = MFA
+	}
+
+	sprite_infantry = {
+		0 = FER_INFANTRY_1
+		1 = FER_INFANTRY_2
+		2 = URB_INFANTRY_3
+		3 = URB_INFANTRY_4
+	}
+
+	sprite_cavalry = {
+		0 = FER_CAVALRY_1
+		1 = FER_CAVALRY_2
+		2 = URB_CAVALRY_3
+		3 = URB_CAVALRY_4
+	}
+
+	sprite_artillery = {
+		0 = FER_ARTILLERY_1
+		1 = FER_ARTILLERY_2
+		2 = URB_ARTILLERY_3
+		3 = URB_ARTILLERY_4
+	}
+}

@@ -1668,21 +1668,18 @@ woc_trebizond_fourth = {
 		trigger = {
 			327 = {
 				country_or_non_sovereign_subject_holds = ROOT
-				religion = ROOT
 				NOT = {
 					nationalism = 1
 				}
 			}
 			332 = {
 				country_or_non_sovereign_subject_holds = ROOT
-				religion = ROOT
 				NOT = {
 					nationalism = 1
 				}
 			}
 			4298 = {
 				country_or_non_sovereign_subject_holds = ROOT
-				religion = ROOT
 				NOT = {
 					nationalism = 1
 				}
@@ -1740,12 +1737,15 @@ woc_trebizond_fourth = {
 			custom_tooltip = tre_empty
 			327 = {
 				change_culture = armenian
+				change_religion = coptic
 			}
 			332 = {
 				change_culture = armenian
+				change_religion = coptic
 			}
 			4298 = {
 				change_culture = armenian
+				change_religion = coptic
 			}
 			custom_tooltip = tre_cilicia_culture_conversion
 			hidden_effect = {

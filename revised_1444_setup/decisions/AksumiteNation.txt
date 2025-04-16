@@ -23,10 +23,6 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 			OR = {
-				is_free_or_tributary_trigger = yes
-				ai = no
-			}
-			OR = {
 				ai = no
 				AND = {
 					NOT = { exists = AKS }
@@ -120,6 +116,7 @@ country_decisions = {
 				set_government_rank = 3
 			}
 			set_capital = 1227
+			add_government_reform = solomonic_empire
 			horn_of_africa_region = {
 				limit = {
 					NOT = { owned_by = ROOT }

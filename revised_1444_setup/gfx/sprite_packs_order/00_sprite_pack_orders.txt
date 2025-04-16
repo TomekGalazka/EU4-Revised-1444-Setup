@@ -433,8 +433,8 @@ dlc137_NIT_sprite_pack = 40
 #Byzantium
 byzantine_sprite_pack = 100
 
-#Morea
-morea_sprite_pack = 100
+#Montferrat
+montferrat_sprite_pack = 100
 
 #Greco-Georgian
 greco-georgian_sprite_pack = 100

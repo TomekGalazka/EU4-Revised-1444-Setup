@@ -15,8 +15,7 @@ vassal = {
 }
 
 #Soran
-dependency = {
-	subject_type = "tributary_state"
+vassal = {
 	first = QAR
 	second = BHT
 	start_date = 1444.1.1
@@ -24,8 +23,7 @@ dependency = {
 }
 
 #Hakkari
-dependency = {
-	subject_type = "tributary_state"
+vassal = {
 	first = QAR
 	second = HAK
 	start_date = 1444.1.1
@@ -33,8 +31,7 @@ dependency = {
 }
 
 #Daseni
-dependency = {
-	subject_type = "tributary_state"
+vassal = {
 	first = QAR
 	second = DAS
 	start_date = 1444.1.1

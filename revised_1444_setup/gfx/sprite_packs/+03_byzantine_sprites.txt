@@ -1,7 +1,11 @@
 byzantine_sprite_pack = {
 	# Tests against every tag in game
 	country_trigger = {
-		tag = BYZ
+		OR =  {
+			tag = BYZ
+			tag = MOE
+			tag = ACH
+		}
 	}
 
 	sprite_infantry = {

@@ -3,3 +3,22 @@
 lithuanian_decentralisation = {
 	reduced_liberty_desire = 25
 }
+
+arm_great_city_ani = {
+	local_development_cost = -0.35
+	trade_value = 10
+}
+
+will_of_the_steppe_lords = {
+	reduced_liberty_desire = 50
+}
+
+pillar_of_the_maghreb = {
+	reduced_liberty_desire = 25
+}
+
+succession_turmoil_adjourned = {
+	reduced_liberty_desire = 25
+	stability_cost_modifier = -0.10
+	legitimacy = 1
+}

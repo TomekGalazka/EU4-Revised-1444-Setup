@@ -4,8 +4,7 @@ government_rank = 1
 technology_group = eastern
 primary_culture = greek
 religion = orthodox
-capital = 145	# Nafplio
-fixed_capital = 145 # Cannot move capital away from this province & no power cost to move to it
+capital = 1773	# Achaea
 
 # Despots of Morea #
 1383.1.1 = {
@@ -42,18 +41,29 @@ fixed_capital = 145 # Cannot move capital away from this province & no power cos
 	}
 }
 
-1443.1.1 = {
+1428.1.1 = {
 	monarch = {
-		name = "Demetrios II"
+		name = "Thomas I"
 		dynasty = "Palaiologos"
+		birth_date = 1409.1.1
+		death_date = 1465.5.12
 		dip = 2
-		adm = 1
-		mil = 1
+		adm = 3
+		mil = 3
 	}
-	clear_scripted_personalities = yes
-	add_ruler_personality = babbling_buffoon_personality
-	add_ruler_personality = malevolent_personality
-	add_ruler_personality = cruel_personality
+	queen = {
+        country_of_origin = ACH
+        name = "Caterina"
+        dynasty = "Zaccaria"
+        birth_date = 1412.1.1
+        death_date = 1462.8.16
+        female = yes
+        adm = 2
+        dip = 3
+        mil = 1
+	culture = lombard
+	religion = catholic
+    }
 }
 
 # Conquered by the Ottomans 1460

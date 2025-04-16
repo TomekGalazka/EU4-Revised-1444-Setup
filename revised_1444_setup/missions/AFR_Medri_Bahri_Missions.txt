@@ -1,0 +1,267 @@
+medri_bahri_slot_aksumite_empire = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Origins"
+	}
+	potential = {
+		has_dlc = "Origins"
+		NOT = { map_setup = map_setup_random }
+		tag = MED	
+	}
+	has_country_shield = yes
+
+	#Develop our Ancestor's Capital
+	eth_develop_the_ancestors_city = {
+		icon = conquer_tuscany
+		required_missions = {  }
+		position = 1
+		provinces_to_highlight = {
+			province_id = 1227
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+				NOT = { num_of_times_improved = 5 }
+			}
+		}
+		trigger = {
+			1227 = {
+				is_core = ROOT
+				owned_by = ROOT
+				num_of_times_improved = 5
+			}
+		}
+		effect = {
+			1227 = {
+				add_building_construction = {
+					building = cathedral
+					speed = 1
+					cost = 0
+				}
+				add_province_modifier = {
+					name = eth_obelisk_of_axum
+					duration = -1
+				}
+			}
+			if = {
+				limit = {
+					NOT = { is_core = 1230 }
+				}
+				add_core = 1230
+			}
+			if = {
+				limit = {
+					NOT = { is_core = 2787 }
+				}
+				add_core = 2787
+			}
+			if = {
+				limit = {
+					NOT = { is_core = 2766 }
+				}
+				add_core = 2766
+			}
+		}
+		ai_weight = {
+			factor = 500	#Tall missions are always okay for the AI
+		}
+	}
+
+	#Adulis, the harbor of Aksum
+	eth_harbor_city_adulis = {
+		icon = capture_adriatic_ports
+		required_missions = { eth_develop_the_ancestors_city }
+		position = 2
+		provinces_to_highlight = {
+			province_id = 1230
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { num_of_times_improved = 5 }
+			}
+		}
+		trigger = {
+			owns = 1230
+			1230 = {
+				religion = ROOT
+				num_of_times_improved = 5
+			}
+		}
+		effect = {
+			country_event = {
+				id = flavor_med.1
+			}
+			aussa_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			ifat_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			if = {
+				limit = {
+					NOT = { is_permanent_claim = 1208 }
+					NOT = { is_core = 1208 }
+				}
+				add_permanent_claim = 1208
+			}
+			if = {
+				limit = {
+					NOT = { is_permanent_claim = 1210 }
+					NOT = { is_core = 1210 }
+				}
+				add_permanent_claim = 1210
+			}
+		}
+		ai_weight = {
+			factor = 75	#Default
+		}
+	}
+
+	#Face Adal
+	eth_conquer_adal = {
+		icon = mission_non-western_soldiers
+		required_missions = { eth_harbor_city_adulis }
+		position = 3
+		provinces_to_highlight = {
+			OR = {
+				area = aussa_area
+				area = ifat_area
+				province_id = 1208
+				province_id = 1210
+			}
+		}
+		trigger = {
+			num_of_owned_provinces_with = {
+				OR = {
+					area = aussa_area
+					area = ifat_area
+					province_id = 1208
+				}
+				value = 6
+			}
+			owns = 1210
+		}
+		effect = {
+			tihama_al_yemen_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			yemen_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			hadramut_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+		ai_weight = {
+			factor = 75	#Default
+		}
+	}
+
+	#Eliminate Yemen
+	eth_yemens_coasts = {
+		icon = mission_persian_soldiers
+		required_missions = { eth_conquer_adal }
+		position = 4
+		provinces_to_highlight = {
+			OR = {
+				area = tihama_al_yemen_area
+				area = yemen_area
+				area = hadramut_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			owns = 387
+			num_of_owned_provinces_with = {
+				OR = {
+					area = tihama_al_yemen_area
+					area = yemen_area
+					area = hadramut_area
+				}
+				value = 5
+			}
+		}
+		effect = {
+			4346 = {
+				add_trade_modifier = {
+					who = ROOT
+					duration = -1
+					power = 20
+					key = ETH_CONTROL_OVER_GATE_OF_TEARS
+				}
+			}			
+			mecca_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			medina_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			tabuk_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			upper_yemen_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			asir_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			mahra_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			dhofar_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+		ai_weight = {
+			factor = 25	#Plausible, but AI Ethiopia should not blob into Arabia
+		}
+	}
+}

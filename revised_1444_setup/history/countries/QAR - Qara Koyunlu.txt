@@ -7,7 +7,10 @@ religion = shiite
 technology_group = muslim
 capital = 416 # Tabriz
 religious_school = ismaili_school
-
+add_country_modifier = { 
+    name = will_of_the_steppe_lords
+    duration = 5475 
+}
 set_estate_privilege = estate_nobles_strong_duchies
 
 1390.1.1 = {

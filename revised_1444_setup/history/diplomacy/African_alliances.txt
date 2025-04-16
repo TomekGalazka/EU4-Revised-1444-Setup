@@ -254,18 +254,6 @@ vassal = {
 	end_date = 1811.1.1
 }
 
-
-#Morocco and Tetouan
-
-dependency = {
-	subject_type = "tributary_state"
-	first = MOR
-	second = TET
-	start_date = 1444.1.1
-	end_date = 1820.1.1
-}
-
-
 #Mamluks and Cyrenaica
 
 dependency = {
@@ -274,6 +262,15 @@ dependency = {
 	second = CYR
 	start_date = 1444.1.1
 	end_date = 1517.1.1
+}
+
+#Morroco and Tetouan
+
+vassal = {
+	first = MOR
+	second = TET
+	start_date = 1444.1.1
+	end_date = 1472.1.1
 }
 
 #Tunis and Algiers
@@ -288,8 +285,7 @@ dependency = {
 
 #Tunis and Tripoli
 
-dependency = {
-	subject_type = "tributary_state"
+vassal = {
 	first = TUN
 	second = TRP
 	start_date = 1444.1.1

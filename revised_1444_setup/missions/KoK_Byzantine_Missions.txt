@@ -1026,7 +1026,7 @@ MEE_BYZ_conquest_4 = {
 		}
 	}
 	
-	tre_liberate_cilicia = {
+	byz_liberate_cilicia = {
 	    icon = arm_restore_armenian_cilicia
 		required_missions = { BYZ_coast }
 		position = 4
@@ -1036,8 +1036,6 @@ MEE_BYZ_conquest_4 = {
 				province_id = 327
 				province_id = 332
 				province_id = 4298
-				province_id = 4310
-				province_id = 2303
 			}
 			OR = {
 				NOT = { country_or_non_sovereign_subject_holds = ROOT }
@@ -1052,12 +1050,6 @@ MEE_BYZ_conquest_4 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 			4298 = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			4310 = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			2303 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
@@ -1086,18 +1078,6 @@ MEE_BYZ_conquest_4 = {
 				add_local_autonomy = -100
 				add_nationalism = -20
 			}
-			4310 = {
-				change_culture = armenian
-				change_religion = coptic
-				add_local_autonomy = -100
-				add_nationalism = -20
-			}
-			2303 = {
-				change_culture = armenian
-				change_religion = coptic
-				add_local_autonomy = -100
-				add_nationalism = -20
-			}
 			custom_tooltip = tre_cilicia_culture_conversion
 			hidden_effect = {
 				add_accepted_culture_or_dip_power = { culture = armenian dip_reward = yes }
@@ -1107,7 +1087,7 @@ MEE_BYZ_conquest_4 = {
 
 	BYZ_avenge_1071 = {
 		icon = byz_avenge_1071
-		required_missions = { tre_liberate_cilicia }
+		required_missions = { byz_liberate_cilicia }
 		position = 5
 		provinces_to_highlight = {
 			region = anatolia_region
@@ -1362,7 +1342,7 @@ MEE_BYZ_conquest_4 = {
 		}
 	}
 
-mam_highway_empire = {
+byz_highway_empire = {
 		icon = mam_highway_empire
 		required_missions = { BYZ_breadbasket }
 		position = 9
@@ -2166,7 +2146,8 @@ MEE_BYZ_economy_1 = {
 					province_id = 148
 					OR = {
 						NOT = { owned_by = ROOT }
-						NOT = { has_production_building_trigger = yes }
+						NOT = { base_production = 8 }
+						NOT = { development = 20 }
 					}
 				}
 				AND = {
@@ -2183,7 +2164,7 @@ MEE_BYZ_economy_1 = {
                             NOT = { trade_goods = gold }
                             OR = {
                                 NOT = { owned_by = ROOT }
-                                NOT = { has_production_building_trigger = yes }
+                                NOT = { base_production = 10 }
                             }
                         }
                     }
@@ -2200,7 +2181,10 @@ MEE_BYZ_economy_1 = {
 			}
 			148 = {
 				owned_by = ROOT
-				has_production_building_trigger = yes
+				OR = {
+					base_production = 8
+					development = 20
+				}
 			}
 			330 = {
 				owned_by = ROOT

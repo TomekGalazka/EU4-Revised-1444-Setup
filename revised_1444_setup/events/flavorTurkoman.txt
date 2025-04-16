@@ -240,6 +240,7 @@ country_event = {
 					}
 					add_core = ROOT 
 				}
+		remove_country_modifier = will_of_the_steppe_lords
 		BAG = {
 			declare_war_with_cb = {
     				who = QAR

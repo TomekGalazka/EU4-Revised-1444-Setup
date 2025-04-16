@@ -5460,6 +5460,8 @@
  tre_ecclesiastical_architecture_desc:2 "The grandeur of our sacred architecture is a testament to our faith and devotion. We must continue to build magnificent holy places to inspire our people and demonstrate our commitment to the [Root.Religion.GetName] faith."
  tre_liberate_cilicia_title:0 "Liberate Cilicia"
  tre_liberate_cilicia_desc:0 "The lands of Cilician Armenians have fallen to the Turks. Let us liberate our brethren and let them rejoice under the rule of the Cross once again."
+ byz_liberate_cilicia_title:0 "Liberate Cilicia"
+ byz_liberate_cilicia_desc:0 "The lands of Cilician Armenians have fallen to the Turks. Let us liberate our brethren and let them rejoice under the rule of the Cross once again."
  tre_legacy_of_the_crusades_title:0 "Legacy of the Crusades"
  tre_legacy_of_the_crusades_desc:0 "Historically, the Komnenoi have had strong ties with the Latin crusaders of the Levant - both diplomatically and militarily. As we now once again possess control over much of the former Byzantine lands, perhaps, it is time to rekindle our crusader legacy and set our eyes on the liberation of the Holy Land."
  tre_kingdoms_of_the_caucasus_title:0 "Caucasian Kingdoms"

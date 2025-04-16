@@ -1,0 +1,44 @@
+#Ani from the ashes
+country_event = {
+	id = flavor_arm.5
+	title = flavor_arm.5.t
+	desc = flavor_arm.5.d
+	picture = COPTIC_CITY_eventPicture
+	mean_time_to_happen = { days = 6 }
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = ARM
+		owns = 2204
+		owns = 4303
+	}
+	
+	goto = 2204
+
+	option = {
+		name = flavor_arm.5.a
+		2204 = {
+			add_base_tax = 5
+			add_base_production = 5
+			add_base_manpower = 2
+			move_capital_effect = yes
+			add_permanent_province_modifier = {
+				name = arm_great_city_ani
+				duration = -1
+			}
+			change_culture = armenian
+			change_religion = coptic
+			center_of_trade = 2
+			change_trade_goods = silk
+		}
+		4303 = {
+			add_base_tax = 1
+			add_base_production = 1
+			add_base_manpower = 1
+			change_culture = armenian
+			change_religion = coptic
+		}
+
+	}
+}

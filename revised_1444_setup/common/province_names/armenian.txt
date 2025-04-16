@@ -16,5 +16,9 @@
 4296 = { "Baghesh" "Baghesh" }
 4295 = { "Harsnk'v" "Harsnk'v" }
 2308 = { "Urrha" "Urrha" }
-2204 = { "Ghars" "Ghars" }
+2204 = { "Ani" "Ani" }
 4298 = { "Aintab" "Aintab" }
+416 = { "Tavrezh" "Tavrezh" }
+4304 = { "Her" "Her" }
+2206 = { "Urmia" "Urmia" }
+2207 = { "Maragha" "Maragha" }

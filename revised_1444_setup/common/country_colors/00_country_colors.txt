@@ -2958,19 +2958,13 @@ TRE = {
     color3= { 170 0 6  }
 }
 
-# Byzantium
-BYZ = {
-    color1= { 0 0 0  }
-    color2= { 255 255 255 }
-    color3= { 170 0 6  }
-}
-
 # Carthage
 CTA = {
-    color1= { 0 0 0  }
-    color2= { 255 255 255 }
-    color3= { 170 0 6  }
+    color1= { 194 178 160 }
+    color2= { 10 75 185 }
+    color3= { 255 255 255  }
 }
+#0 24 249
 
 # The Commonwealth
 PLC = {

@@ -3829,28 +3829,58 @@ country_event = {
 			limit = { owned_by = ROOT }
 			add_core = CTA
 			remove_core = BYZ
+			remove_claim = BYZ
 		}
 		kabylia_area = {
 			limit = { owned_by = ROOT }
 			add_core = CTA
 			remove_core = BYZ
+			remove_claim = BYZ
 		}
 		djerba_area = {
 			limit = { owned_by = ROOT }
 			add_core = CTA
 			remove_core = BYZ
+			remove_claim = BYZ
 		}
 		tripolitania_area = {
 			limit = { owned_by = ROOT }
 			add_core = CTA
 			remove_core = BYZ
+			remove_claim = BYZ
 		}
 		barbary_coast_area = {
 			limit = { owned_by = ROOT }
 			add_core = CTA
 			remove_core = BYZ
+			remove_claim = BYZ
 		}
-		custom_tooltip = exarchate_cores_only_on_owned_provinces_tt
+		tunisia_area = {
+			limit = { NOT = { owned_by = ROOT }  }
+			add_permanent_claim = CTA
+			remove_claim = BYZ
+		}
+		kabylia_area = {
+			limit = { NOT = { owned_by = ROOT }  }
+			add_permanent_claim = CTA
+			remove_claim = BYZ
+		}
+		djerba_area = {
+			limit = { NOT = { owned_by = ROOT }  }
+			add_permanent_claim = CTA
+			remove_claim = BYZ
+		}
+		tripolitania_area = {
+			limit = { NOT = { owned_by = ROOT }  }
+			add_permanent_claim = CTA
+			remove_claim = BYZ
+		}
+		barbary_coast_area = {
+			limit = { NOT = { owned_by = ROOT }  }
+			add_permanent_claim = CTA
+			remove_claim = BYZ
+		}
+		custom_tooltip = exarchate_claims_only_on_not_owned_provinces_tt
 		release = CTA
 		create_subject = { 
 			subject_type = exarchate
@@ -3865,10 +3895,12 @@ country_event = {
 			set_country_flag = has_overriden_name_flag
 			add_government_reform = exarchate_reform
 			change_religion = orthodox
+			set_government_rank = 2
 			adopt_reform_progress = ROOT
 			primary_culture = greek
 			add_accepted_culture = tunisian
 			add_accepted_culture = berber
+			add_accepted_culture = algerian
 			add_historical_friend = BYZ
 		}
 		add_dip_power = 75
@@ -3925,33 +3957,69 @@ country_event = {
 			limit = { owned_by = ROOT }
 			add_core = CDR
 			remove_core = BYZ
+			remove_claim = BYZ
 		}
 		po_valley_area = {
 			limit = { owned_by = ROOT }
 			add_core = CDR
 			remove_core = BYZ
+			remove_claim = BYZ
 		}
 		emilia_romagna_area = {
 			limit = { owned_by = ROOT }
 			add_core = CDR
 			remove_core = BYZ
+			remove_claim = BYZ
 		}
 		lombardy_area = {
 			limit = { owned_by = ROOT }
 			add_core = CDR
 			remove_core = BYZ
+			remove_claim = BYZ
 		}
 		piedmont_area = {
 			limit = { owned_by = ROOT }
 			add_core = CDR
 			remove_core = BYZ
+			remove_claim = BYZ
 		}
 		liguria_area = {
 			limit = { owned_by = ROOT }
 			add_core = CDR
 			remove_core = BYZ
+			remove_claim = BYZ
 		}
-		custom_tooltip = exarchate_cores_only_on_owned_provinces_tt
+		venetia_area = {
+			limit = { NOT = { owned_by = ROOT }  }
+			add_permanent_claim = CDR
+			remove_claim = BYZ
+		}
+		po_valley_area = {
+			limit = { NOT = { owned_by = ROOT }  }
+			add_permanent_claim = CDR
+			remove_claim = BYZ
+		}
+		emilia_romagna_area = {
+			limit = { NOT = { owned_by = ROOT }  }
+			add_permanent_claim = CDR
+			remove_claim = BYZ
+		}
+		lombardy_area = {
+			limit = { NOT = { owned_by = ROOT }  }
+			add_permanent_claim = CDR
+			remove_claim = BYZ
+		}
+		piedmont_area = {
+			limit = { NOT = { owned_by = ROOT }  }
+			add_permanent_claim = CDR
+			remove_claim = BYZ
+		}
+		liguria_area = {
+			limit = { NOT = { owned_by = ROOT }  }
+			add_permanent_claim = CDR
+			remove_claim = BYZ
+		}
+		custom_tooltip = exarchate_claims_only_on_not_owned_provinces_tt
 		release = CDR
 		create_subject = { 
 			subject_type = exarchate
@@ -3966,6 +4034,7 @@ country_event = {
 			set_country_flag = has_overriden_name_flag
 			add_government_reform = exarchate_reform
 			change_religion = orthodox
+			set_government_rank = 2
 			adopt_reform_progress = ROOT
 			primary_culture = griko
 			add_accepted_culture = romagnan

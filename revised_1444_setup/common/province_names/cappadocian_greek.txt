@@ -1,0 +1,361 @@
+285 = { "Theodosia" "Theodosia" }
+286 = { "Tanais" "Tanais" }
+2140 = { "Theodoro" "Theodoro" }
+418 = { "Amida" "Amida" }
+2348 = { "Chios" "Chios" }
+2447 = { "Phanagoreia" "Phanagoreia" }
+149 = { "Adrianople" "Adrianople" }
+151 = { "Constantinople" "Constantinople" }
+316 = { "Optimatoi" "Nikomedeia" }
+317 = { "Opsikion" "Prussa" }
+318 = { "Smyrna" "Smyrna" }
+319 = { "Mylasa" "Mougla" }
+322 = { "Kotyaion" "Kotyaion" }
+323 = { "Ikonion" "Iconion" }
+324 = { "Laranda" "Laranda" }
+325 = { "Paphlagonia" "Timonio" }
+326 = { "Galatia" "Ancyra" }
+327 = { "Cilicia" "Atana" }
+328 = { "Sinope" "Sinope" }
+329 = { "Sebasteia" "Sebastopolis" }
+330 = { "Trebizond" "Trapezous" }
+331 = { "Theodosiopolis" "Theodosiopolis" }
+1764 = { "Mesambria" "Mesambria" }
+1846 = { "Armeniakon" "Amasea" }
+1848 = { "Baris" "Baris" }
+2296 = { "Abydos" "Pigai" }
+2297 = { "Thrakesion" "Magnesia" }
+2298 = { "Attalia" "Attalia" }
+2299 = { "Boukellarion" "Klaudiopol" }
+2300 = { "Cappadocia" "Tavium" }
+2301 = { "Charsianon" "Ceasarea" }
+2302 = { "Seleucia" "Kermarage" }
+2304 = { "Chaldia" "Amissos" }
+2305 = { "Acilisene" "Acilisene" }
+2306 = { "Mous" "Mous" }
+4295 = { "Kiphas" "Kiphas" }
+4296 = { "Balaleison" "Balaleison" }
+4307 = { "Colonia" "Colonia" }
+4308 = { "Laodicea" "Laodicea" }
+4309 = { "Tralles" "Tralles" }
+4310 = { "Tephrike" "Tephrike" }
+4311 = { "Anatolikon" "Polydorion" }
+4312 = { "Dorylaeum" "Dorylaeum" }
+4313 = { "Gangra" "Gangra" }
+4314 = { "Justinianopolis" "Justinianopolis" }
+4315 = { "Evdoksia" "Evdoksia" }
+4705 = { "Komotini" "Komotini" }
+4702 = { "Serres" "Serres" }
+
+#Albania
+143 = { "Aulonas" "Aulonas" }
+4750 = { "Kroai" "Kroai" }
+4175 = { "Lissos" "Lissos" }
+4174 = { "Dyrrhachion" "Dyrrhachion" }
+
+#Serbia
+138 =  { "Diokleia" "Podogoritsa" }
+4754 = { "Dekaderon" "Dekaderon" }
+1827 = { "Raskia" "Arsa" }
+1766 = { "Lypenion" "Prisdriana" }
+141 = { "Semendria" "Semendria" }
+3000 = { "Naissos" "Naissos" }
+4176 = { "Branitzova" "Krousoubaton" }
+4239 = { "Singidounon" "Beligradon" }
+4757 = { "Kolobros" "Belestinon" }
+
+#Croatia
+130 = { "Histria" "Polai" }
+136 = { "Spalathos" "Spalathos" }
+137 = { "Rhaousin" "Rhaousin" }
+4753 = { "Iadora" "Iadora" }
+131 = { "Agranon" "Agranon" }
+1826 = { "Litzan" "Senia" }
+1828 = { "Kato Kraioi" "Iaike" }
+4752 = { "Taursatika" "Taursatika" }
+152 = { "Barazdinon" "Barazdinon" }
+1767 = { "Sklabania" "Osieka" }
+4173 = { "Sirmou" "Sirmion tou Demetriou" }
+4756 = { "Bellobarion" "Bellobarion" }
+
+#Bosnia
+139 = { "Zachloumia" "Mostar" }
+140 = { "Bosona" "Kanabaia" }
+1831 = { "Terbounia" "Neokastron" }
+3002 = { "Bisotzion" "Bisotzion" }
+4755 = { "Dreinos" "Bisegradon" }
+
+#Bulgaria
+150 = { "Nikopolis" "Nikopolis" }
+2746 = { "Bidyne" "Bidyne" }
+2750 = { "Philippopolis" "Philippopolis" }
+3001 = { "Skoupoi" "Skoupoi" }
+4780 = { "Achrida" "Achrida" }
+4706 = { "Aegyssus" "Aegyssus" }
+1765 = { "Triaditza" "Triaditza" }
+4703 = { "Belebousda" "Belebousda" }
+159 = { "Dorostolon" "Dorostolon" }
+4704 = { "Turnobon" "Turnobon" }
+
+#Mediterranean islands
+321 = { "Cyprus" "Lefkosia"}
+
+#Anatolia
+332 = { "Germanikeia" "Germanikeia" }
+2303 = { "Mitilene" "Mitilene" }
+4298 = { "Telouch" "Telouch"}
+
+#Greece
+142 = { "Kerkyra" "Kerkyra" }
+144 = { "Epirus" "Ioannina" }
+163 = { "Crete" "Chandax" }
+3003 = { "Euripos" "Chalcis" }
+
+#Caucasus
+420 = { "Gazaka" "Gazaka" }
+421 = { "Sirban" "Sirban" }
+2197 = "Kamparntia"
+2202 = { "Vararakn" "Vararakn" }
+2204 = { "Chorzene" "Chorzene" }
+2205 = { "Naxuana" "Naxuana" }
+2307 = "Vasprakania"
+4299 = { "Kamachia" "Kamachia" }
+4302 = { "Darounke" "Darounke" }
+
+#Maghreb
+334 = { "Tingis" "Tingis" }
+335 = { "Meligia" "Meligia" }
+336 = { "Akuai" "Akuai" }
+338 = { "Ikosion" "Ikosion" }
+339 = { "Saldai" "Saldai" }
+340 = { "Konstantinos" "Konstantinos" }
+341 = { "Tunida" "Tunida" }
+342 = { "Likhos" "Likhos" }
+344 = { "Marakes" "Marakes" }
+345 = { "Thymiaterion" "Thymiaterion" }
+351 = { "Tagastes" "Tagastes" }
+352 = { "Khapsos" "Khapsos" }
+354 = { "Tripolis" "Tripolis" }
+355 = { "Syrtis" "Syrtis" }
+356 = { "Kyrenaike" "Kyrenaike" }
+357 = { "Darnis" "Darnis" }
+353 = { "Phulgurite" "Phulgurite" }
+1751 = { "Septa" "Septa" }
+1882 = { "Hippo Basilikos" "Hippo Basilikos" }
+2450 = { "Khydamis" "Khydamis" }
+2451 = { "Tubactis" "Tubactis" }
+2452 = { "Pisida" "Pisida" }
+2453 = { "Thaina" "Thaina" }
+2454 = { "Sikka" "Sikka" }
+2455 = { "Hippo Diarrhytos" "Hippo Diarrhytos" }
+2458 = { "Sitifis" "Sitifis" }
+2473 = { "Aphrodision" "Aphrodision" }
+4566 = { "Kamounia" "Kamounia" }
+2954 = { "Meninx" "Meninx" }
+2461 = { "Murustaga" "Murustaga" }
+2465 = { "Pomaria" "Pomaria" }
+2469 = { "Sala" "Sala" }
+2470 = { "Arambis" "Arambis" }
+
+#Central Italy
+118 = { "Rome" "Rome" }
+119 = { "Ankona" "Ankona" }
+
+#Corsica & Sardinia
+127 = { "Turris" "Turris" }
+2986 = { "Karalis" "Karalis" }
+4735 = { "Aristanis" "Aristanis" }
+1247 = { "Kyrnos" "Ourkinion" }
+
+#Northern Italy
+101 = { "Genova" "Genova" }
+102 = { "Nikaia" "Nikaia" }
+103 = { "Taurinon" "Taurinon" }
+104 = { "Mediolanon" "Mediolanon" }
+105 = { "Parma" "Parma" }
+106 = { "Montena" "Montena" }
+107 = { "Mpresia" "Mpresia" }
+108 = { "Ouiron" "Ouiron" }
+109 = { "Mantova" "Mantova" }
+111 = { "Phriouli" "Outinon" }
+112 = { "Benetia" "Benetia" }
+114 = { "Raouenna" "Raouenna" }
+113 = { "Pherrara" "Pherrara" }
+115 = { "Piza" "Piza" }
+116 = { "Phlorentia" "Phlorentia" }
+117 = { "Saina" "Saina" }
+129 = { "Karniola" "Lyplianes" }
+1774 = { "Trevizo" "Trevizo" }
+1769 = { "Goritsia" "Goritsia" }
+1862 = { "Kremona" "Kremona" }
+1875 = { "Kuneo" "Kuneo" }
+2976 = { "Perousia" "Perousia" }
+2977 = { "Ourbenon" "Ourbenon" }
+2978 = { "Arretion" "Arretion" }
+2979 = { "Novaria" "Novaria" }
+2980 = { "Louka" "Louka" }
+2992 = { "Albion Ingaunon" "Albion Ingaunon" }
+4728 = { "Tikinon" "Tikinon" }
+4729 = { "Pantova" "Pantova" }
+4730 =  { "Bononia" "Bononia" }
+4731 = { "Spolition" "Spolition" }
+4732 = { "Tarrakina" "Tarrakina" }
+4738 = { "Tergesti" "Tergesti" } 
+4739 = { "Bergomon" "Bergomon" }
+4740 = { "Komon" "Komon" }
+4751 = { "Keleia" "Keleia" }
+
+#Sicily
+124 = { "Messene" "Messene" }
+125 = { "Panormos" "Panormos" }
+126 = { "Melite" "Melite" }
+2982 = { "Syrakousai" "Syrakousai" }
+4736 = { "Drepanon" "Drepanon" }
+4737 = { "Akragas" "Akragas" }
+
+#Southern Italy
+120 = { "Amproutso" "Amiternon" }
+121 = { "Neapolis" "Neapolis" }
+122 = { "Tarantas" "Tarantas" }
+123 = { "Kalavria" "Rhegion" }
+1933 = { "Barion" "Barion" }
+1934 = { "Basilikata" "Potentia" }
+2983 = { "Salernon" "Salernon" }
+2984 = { "Konsentia" "Konsentia" }
+2985 = { "Kapitanata" "Kampo Baso" }
+4733 = { "Terouenton" "Terouenton" }
+4734 = { "Abellinon" "Abellinon" }
+
+#Iraq
+408 = { "Basora" "Basora" }
+409 = { "Karmpala" "Karmpala" }
+410 = { "Ktesiphon" "Ktesiphon" }
+411 = { "Mepsila" "Mepsila" }
+415 = { "Korkura" "Korkura" }
+2309 = { "Singara" "Singara" }
+2310 = { "Birtha" "Birtha" }
+4293 = { "Arbela" "Arbela" }
+
+#Levant
+364 = { "Gaza" "Gaza" }
+377 = { "Beroia" "Beroia" }
+378 = { "Berytos" "Berytos" }
+379 = { "Hierosoluma" "Hierosoluma"}
+380 = { "Kharkha" "Kharkha" }
+381 = { "Auran" "Auran" }
+382 = { "Damaskos" "Damaskos" }
+405 = { "Palmyra" "Palmyra" }
+407 = { "Kallinikos" "Kallinikos" }
+1849 = { "Emathous" "Emathous" }
+1854 = { "Iopeia" "Iopeia" }
+1855 = { "Sidon" "Sidon" }
+2309 = { "Singara" "Singara" }
+2313 = { "Antiokheia" "Antiokheia" }
+2314 = { "Kirkesion" "Kirkesion" }
+2327 = { "Petra" "Petra" }
+4292 = { "Marida" "Marida" }
+4297 = { "Emesa" "Emesa" }
+
+#Persia
+412 = { "Aginis" "Aginis" }
+416 = { "Atropatene" "Atropatene" }
+424 = { "Arntampil" "Arntampil" }
+427 = { "Hekatompylos" "Hekatompylos" }
+428 = { "Rhagai" "Rhagai" }
+575 = { "Makrania" "Makrania" }
+2207 = { "Maraga" "Maraga" }
+2218 = { "Persepolis" "Persepolis" }
+2999 = { "Organa" "Organa" }
+
+
+#India
+504 = { "Barbarikon" "Barbarikon" }
+535 = { "Muziris" "Muziris" }
+4461 = { "Ozene" "Ozene" }
+4512 = { "Barigaza" "Barigaza" }
+
+#Arabia
+387 = { "Muza" "Muza" }
+388 = { "Eudoaimon" "Eudoaimon" }
+389 = { "Cana" "Cana" }
+390 = { "Saphar" "Saphar" }
+396 = { "Tylos" "Tylos" }
+1099 = { "Dioskhorida" "Dioskhorida" }
+2343 = { "Adrramyta" "Adrramyta" }
+4268 = { "Aila" "Aila" }
+
+#East Africa
+1196 = { "Rhapta" "Rhapta" }
+1201 = { "Menuthias" "Menuthias" }
+
+#Horn of Africa
+1205 = { "Sarapion" "Sarapion" }
+1209 = { "Malao" "Malao" }
+1230 = { "Adoulis" "Adoulis" }
+2774 = { "Nikon" "Nikon" }
+2786 = { "Mosylon" "Mosylon" }
+2788 = { "Opone" "Opone" }
+2790 = { "Mountos" "Mountos" }
+2794 = { "Toniki" "Toniki" }
+
+#Egypt
+358 = { "Alexandreia" "Alexandreia" }
+359 = { "Krokodilopolis" "Krokodilopolis" }
+360 = { "Kaine" "Kaine" }
+361 = { "Helioupolis" "Helioupolis" }
+362 = { "Bolbitinon" "Bolbitinon" }
+363 = { "Tamiathis" "Tamiathis" }
+365 = { "Raitho" "Raitho" }
+1220 = { "Napata" "Napata" }
+1231 = { "Syene" "Syene" }
+1232 = { "Limen Evangelis" "Limen Evangelis" }
+1233 = { "Oasis Megale" "Oasis Megale" }
+1234 = { "Primis" "Primis" }
+2315 = { "Klysma" "Klysma" }
+2316 = { "Tanta" "Tanta" }
+2317 = { "Oxyrrhynkhos" "Oxyrrhynkhos" }
+2318 = { "Ammonion" "Ammonion" }
+2319 = { "Panopolis" "Panopolis" }
+2320 = { "Myos Hormos" "Myos Hormos" }
+2321 = { "Leukos Limen" "Leukos Limen" }
+2325 = { "Paraitonion" "Paraitonion" }
+2324 = { "Berenike" "Berenike" }
+2326 = { "Petra Megale" "Petra Megale" }
+4316 = { "Pelousion" "Pelousion" }
+4317 = { "Hermoupolis Mikra" "Hermoupolis Mikra" }
+4318 = { "Busiris" "Busiris" }
+4319 = { "Latopolis" "Latopolis" }
+4320 = { "Thinis" "Thinis" }
+4323 = { "Oasis Mikra" "Oasis Mikra" }
+
+#Spain
+218 = { "Batalios" "Batalios" }
+219 = { "Toledon" "Toledon" }
+220 = { "Valentsia" "Valentsia" }
+221 = { "Karthagos Nea" "Karthagos Nea" }
+222 = { "Almeria" "Almeria" }
+224 = { "Hispalis" "Hispalis" }
+223 = { "Iliberris" "Iliberris" }
+225 = { "Kordova" "Kordova" }
+226 = { "Tarekos Oros" "Tarekos Oros" }
+227 = { "Olisipo" "Olisipo" }
+229 = { "Pax Ioulia" "Pax Ioulia" }
+230 = { "Pharos" "Pharos" }
+333 = { "Blearis Meizon" "Palama" }
+596 = { "Malaga" "Malaga" }
+1748 = { "Chaen" "Chaen" }
+1749 = { "Gades" "Gades" }
+1750 = { "Loukenton" "Loukenton" }
+2751 = { "Konka" "Konka" }
+2754 = { "Poli Real" "Poli Real" }
+2903 = { "Konsabra" "Konsabra" }
+4150 = { "Ebora" "Ebora" }
+4547 = { "Albaketi" "Albaketi" }
+4548 = { "Onoba" "Onoba" }
+4549 = { "Saetavis" "Saetavis" }
+4559 = { "Blearis Elasson" "Limen Magonos" }
+4560 = { "Ebousos" "Ebousos" }
+4787 = { "Skallabis" "Skallabis" }
+
+#France
+201 = { "Massalia" "Massalia" }

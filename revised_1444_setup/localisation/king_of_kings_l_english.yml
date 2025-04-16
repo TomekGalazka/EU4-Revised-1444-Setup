@@ -4020,6 +4020,8 @@
  mam_hormuz_straits_desc:0 "Situated in an ideal position at the entrance of the Persian Gulf, [2999.GetName] will be incredibly vital towards furthering our mercantile agenda and our trade share in the region."
  mam_highway_empire_title:0 "Highway of an Empire"
  mam_highway_empire_desc:0 "The land strip that separates the Red and Mediterranean seas has brought forth the idea of an engineering endeavor, suggested by our advisors. By connecting the two seas we would surely improve the flow of our navies across them."
+ byz_highway_empire_title:0 "Highway of an Empire"
+ byz_highway_empire_desc:0 "The land strip that separates the Red and Mediterranean seas has brought forth the idea of an engineering endeavor, suggested by our advisors. By connecting the two seas we would surely improve the flow of our navies across them."
  mam_karimi_merchants_title:0 "Karimi Merchants"
  mam_karimi_merchants_desc:0 "Powerful merchants in charge of ferrying spices, among other goods, are sturdy allies as we try to expand our trade and increase our profit from overseas ventures."
  mam_harness_spice_trade_title:0 "Harness the Spice Trade"

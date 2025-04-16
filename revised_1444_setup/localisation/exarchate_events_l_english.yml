@@ -4,6 +4,7 @@
   MEE_Byzantine_Events.60.a:0 "Re-establish the Exarchate of Africa!	"
   MEE_Byzantine_Events.60.b:0 "No need for intermediaries, we rule directly!"
   exarchate_cores_only_on_owned_provinces_tt:0 "§YCores are only applied on provinces which are owned by [Root.GetName].§!"
+  exarchate_claims_only_on_not_owned_provinces_tt:0 "§YClaims are only applied on provinces which are not owned by [Root.GetName].§!"
   MEE_Byzantine_Events.61.t:0 "Exarchate of Ravenna"
   MEE_Byzantine_Events.61.desc:0 "With Italy once again under the dominion of the Byzantine Empire, the question of governance arises. Direct rule from Constantinople over these far-flung provinces is proving inefficient, as the Western territories require strong military oversight against both internal dissent and foreign threats. Some advisors suggest restoring the Exarchate of Ravenna, a semi-autonomous governorship that once safeguarded imperial rule in Italy. Establishing an Exarch in Ravenna would ensure swift military response and efficient administration, but it would also grant a degree of local autonomy. Shall we revive this institution to secure our hold over Italy?"
   MEE_Byzantine_Events.61.a:0 "Restore the Exarchate of Ravenna!"
