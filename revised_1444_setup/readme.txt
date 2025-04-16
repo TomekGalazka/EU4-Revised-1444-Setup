@@ -1,3 +1,97 @@
+Patch 1.3
+game version: b6b6
+
+byzantine mission tree
+- add mission 'Liberate Cilicia' - armenians in Cilicia and Cilicia tag, armenians are not going to be hellenized
+- add mission 'Highway of an Empire' - build Suez canal few centuries early
+- mission 'Princes of the Lazes' now adds Kalamita fortress modifier to Theodoro province and other bonuses
+- mission 'Abase Persians' now moves Georgian culture to Byzantine sphere
+
+
+Subjects
+- add 'Exarchate' as a new subject type. A very loyal and strong subject of Byzantium (available only via event)
+- Exarchate is treated as a march that does not lose its bounses due to size. But you can only have two of them.
+
+
+Gov reforms
+- add 'Exarchate' as a new tier 1 gov reform. Available only to Byzantine Exarchates. They are a republic and generals become rulers. Byzantine emperor can instate another exarch if he/she sees fit.
+- add 'Solomonid Empire' to a tag that forms Aksum
+- 'Byzanitine Autocracy' government (and Byzantium) can only land pronoiars when they complete 'Reverse the Downfall' mission. AI cant handle multiple vassals and by landing pronoiars and not taking into account liberty desire in subjects lead to its own collapse withint 1-2 years from start of the game
+
+Other mission trees
+- Trebizond now get personal union cb versus Georgia
+- Trebizond can get personal union cb versus Muscovy/Russia
+- added flavor missions to Medhri Bahri
+
+National Ideas
+- add 'Exarchate' ideas
+
+
+Events
+- creation (optional) of Exarchate of Carthage (need to own Carthage and 4 other provinces in coastal Maghreb)
+- creation (optional) of Exarchate of Ravenna (need to own Ravenna and 4 other provinces in Northern Italy)
+- events for customizing colors for both Exarchates and Byzantium (uncommented already existing script in vanilla EU4 - in BYZ case)
+- new Griko culture in Exarchate of Ravenna - latin-greek amalgam
+- 'City of Ani'- Armenia can now rebuild it not-so-long-ago lost metropolis and capital
+- Norse culture can now appear in Greenland (uncommented already existing script in vanilla EU4)
+
+
+Bugfixes
+- fixed turkish beyliks and Aq Qoyunlu mission tree
+
+
+Custom Flags
+- Epirus
+- Ferghana
+- Ravenna
+- Carthage (borrowed from a mod - I don't know which one as I saved this file on my computer few years ago -- sorry! Tell me who to thank if possible) 
+- Montferrat Palaiologoi ruling dynasty now reflects also on it's flag
+
+Unit sprites
+- Exarchate of Carthage use Tlemcen unit sprites
+- Exarchate of Ravenna use Roman unit sprites
+- Montferrat now uses the newest italian sprites added in vanilla patch 1.37
+
+City sprites
+- Commonwealth has now western city sprites
+
+
+Unit colors
+- Commonwealth has now more matching unit colors
+
+Localisation
+- Exarchate type of government now has a custom ruler titles ('Exarch')
+
+
+Province names localisation
+- added custom province names for whole Byzantine culture sphere
+- added custom province names for Armenia
+
+Map setup
+- removed Montenegro from the map
+- added Achaea as a vassal of Byzanitum (with Thomas Palaiologos as ruler)
+- Serbia now have a core on Podrinje province
+- Tetuouan is now a vassal of Morocco
+- Achaea is now a vassal of Byzanitum, with Catarina Zaccaria as 'despotissa'
+- Hakkari, Daseni, Soran are now vassals of Qara Qoyunlu
+
+Tags
+- Ruler of Morea now stars with weak stats and traits - as it turns out he was quite a scumbag
+
+Formables
+- Medhri Bahri led by AI can now form Aksum
+
+Country modifiers
+- Morocco, Byzanitum and Qara Qoyunlu start with timed modifier that reduces liberty desire in subjects (to prevent early collapse)
+
+HRE
+- Imperial authority from number of provinces in HRE is restored, after tests the debuff now seems unnecessary
+
+Country colors
+- change the shades of Volhynia and Ruthenia so they fit better on the map (and aesthetically)
+ 
+
+
 🌟 EU4 Revised 1444 Setup - Version 1.1 🌟
    Game version: a22a
 
