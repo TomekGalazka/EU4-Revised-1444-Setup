@@ -67,25 +67,33 @@ country_decisions = {
 			inherit = LIT
 			if = {
 				limit = {
-					exists = VOL
+					VOL = {
+						is_subject_of = LIT
+					}
 				}
 				inherit = VOL
 			}
 			if = {
 				limit = {
-					exists = KIE
+					KIE = {
+						is_subject_of = LIT
+					}
 				}
 				inherit = KIE
 			}
 			if = {
 				limit = {
-					exists = ZEM
+					ZEM = {
+						is_subject_of = LIT
+					}
 				}
 				inherit = ZEM
 			}
 			if = {
 				limit = {
-					exists = MSR
+					MSR = {
+						is_subject_of = LIT
+					}
 				}
 				inherit = MSR
 			}
@@ -257,25 +265,33 @@ country_decisions = {
 			inherit = POL
 			if = {
 				limit = {
-					exists = VOL
+					VOL = {
+						is_subject_of = LIT
+					}
 				}
 				inherit = VOL
 			}
 			if = {
 				limit = {
-					exists = KIE
+					KIE = {
+						is_subject_of = LIT
+					}
 				}
 				inherit = KIE
 			}
 			if = {
 				limit = {
-					exists = ZEM
+					ZEM = {
+						is_subject_of = LIT
+					}
 				}
 				inherit = ZEM
 			}
 			if = {
 				limit = {
-					exists = MSR
+					MSR = {
+						is_subject_of = LIT
+					}
 				}
 				inherit = MSR
 			}

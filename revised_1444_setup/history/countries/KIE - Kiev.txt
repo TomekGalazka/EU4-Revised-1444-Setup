@@ -25,7 +25,7 @@ fixed_capital = 280 # Cannot move capital away from this province & no power cos
 		death_date = 1470.12.3
 		claim = 95
 		adm = 3
-		dip = 3
+		dip = 2
 		mil = 4
 	}
 }

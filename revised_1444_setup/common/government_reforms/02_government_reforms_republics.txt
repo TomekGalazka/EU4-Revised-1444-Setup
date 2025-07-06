@@ -2058,17 +2058,11 @@ exarchate_reform = {
 		monarch_military_power = 2
 		nobles_loyalty_modifier = 0.1
 	}
-	effect = {
-		hidden_effect = {
-			convert_ruler_to_general = 50
-		}
-	}
 	custom_attributes = {
 		generals_become_rulers = yes
 		locked_government_type = yes
 		enables_plutocratic_idea_group = no
 		enables_aristocratic_idea_group = yes
-		force_general_leader = yes
 		cannot_become_dictatorship = yes
 	}
 }

@@ -1,6 +1,6 @@
 285 = { "Theodosia" "Theodosia" }
 286 = { "Tanais" "Tanais" }
-2140 = { "Theodoro" "Theodoro" }
+2410 = { "Theodoro" "Theodoro" }
 418 = { "Amida" "Amida" }
 2348 = { "Chios" "Chios" }
 2447 = { "Phanagoreia" "Phanagoreia" }
@@ -65,7 +65,7 @@
 4757 = { "Kolobros" "Belestinon" }
 
 #Croatia
-130 = { "Histria" "Polai" }
+130 = { "Istria" "Polai" }
 136 = { "Spalathos" "Spalathos" }
 137 = { "Rhaousin" "Rhaousin" }
 4753 = { "Iadora" "Iadora" }

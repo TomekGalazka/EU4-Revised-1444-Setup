@@ -970,6 +970,13 @@ colonial_colombia = {
 	names = {
 		trigger = {
 			culture_group = germanic
+			NOT = {
+				OR = {
+					primary_culture = dutch
+					primary_culture = flemish
+					primary_culture = frisian
+				}
+			}
 		}
 		name = "COLONIAL_COLOMBIA_Klein_Venedig"
 	}
