@@ -1,7 +1,7 @@
-Patch 1.3a
+Patch 1.3.1
 game version: 20bd
 
-changes in 1.3a
+changes in 1.3.1
 - minor bugfixes
 
 byzantine mission tree
