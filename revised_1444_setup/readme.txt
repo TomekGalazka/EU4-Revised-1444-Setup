@@ -1,5 +1,8 @@
-Patch 1.3
-game version: b6b6
+Patch 1.3a
+game version: 20bd
+
+changes in 1.3a
+- minor bugfixes
 
 byzantine mission tree
 - add mission 'Liberate Cilicia' - armenians in Cilicia and Cilicia tag, armenians are not going to be hellenized
