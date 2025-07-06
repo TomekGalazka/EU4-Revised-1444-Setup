@@ -1,6 +1,6 @@
 #Samogitia
 
-graphical_culture = easterngfx
+graphical_culture = westerngfx
 
 color = { 100 20 20 }
 
